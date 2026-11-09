@@ -1,0 +1,1094 @@
+{
+  "source": "the_vault-1.18.2-20.0.3-remastered.6872.jar / ModGearAttributes + en_us",
+  "jarSha256": "fc6adfeb76071d61e633027334fc95e8efb7faf8a4cb57d646f8176b4f75390b",
+  "attributes": {
+    "the_vault:ability_area_of_effect_flat": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityAreaOfEffectFlatAttribute"
+    },
+    "the_vault:ability_area_of_effect_percent": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityAreaOfEffectPercentAttribute"
+    },
+    "the_vault:ability_cast_failure_chance": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Ability Cast Failure",
+      "color": "#cc3300"
+    },
+    "the_vault:ability_cast_on_loot": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.loot.AbilityCastOnLootAttribute"
+    },
+    "the_vault:ability_cooldown_flat": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityCooldownFlatAttribute"
+    },
+    "the_vault:ability_cooldown_percent": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityCooldownPercentAttribute"
+    },
+    "the_vault:ability_cooldown_skip": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Ability Cooldown Skip Chance",
+      "color": "#e35f12"
+    },
+    "the_vault:ability_mana_cost_flat": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityManaCostFlatAttribute"
+    },
+    "the_vault:ability_mana_cost_percent": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityManaCostPercentAttribute"
+    },
+    "the_vault:ability_on_damage": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.ability.AbilityTriggerOnDamageAttribute"
+    },
+    "the_vault:ability_power": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Ability Power",
+      "color": "#ff00cb"
+    },
+    "the_vault:ability_power_percent": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Ability Power",
+      "color": "#ee5ffb"
+    },
+    "the_vault:ability_power_percentile": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Ability Power Percentile",
+      "color": "#ff00cb"
+    },
+    "the_vault:ability_special_modification": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.special.base.SpecialAbilityGearAttribute"
+    },
+    "the_vault:added_ability_level": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.ability.AbilityLevelAttribute"
+    },
+    "the_vault:added_talent_level": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.talent.TalentLevelAttribute"
+    },
+    "the_vault:arcane_nova_on_hit": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.ability.ArcaneNovaOnHitAttribute"
+    },
+    "the_vault:area_of_effect": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Area of Effect",
+      "color": "#e9c375"
+    },
+    "the_vault:armor": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Armor",
+      "color": "#48baf8"
+    },
+    "the_vault:armor_percentile": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Armor",
+      "color": "#6998e0"
+    },
+    "the_vault:armor_toughness": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Armor Toughness",
+      "color": "#cafb90"
+    },
+    "the_vault:attack_damage": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Attack Damage",
+      "color": "#c82626"
+    },
+    "the_vault:attack_range": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Attack Range",
+      "color": "#84d7ff"
+    },
+    "the_vault:attack_speed": {
+      "type": "double",
+      "reader": "AttackSpeedDecimalReader",
+      "name": "Attack Speed",
+      "color": "#ffda68"
+    },
+    "the_vault:attack_speed_percent": {
+      "type": "double",
+      "reader": "percentageReader",
+      "name": "Attack Speed",
+      "color": "#ffda68"
+    },
+    "the_vault:axing": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Axing",
+      "color": "#90693a"
+    },
+    "the_vault:block": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Block Chance",
+      "color": "#f5cf8e"
+    },
+    "the_vault:block_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Block Cap",
+      "color": "#f5cf8e"
+    },
+    "the_vault:block_glacial_prison": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Block Glacial Prison Chance",
+      "color": "#e35f12"
+    },
+    "the_vault:block_heal": {
+      "type": "float",
+      "reader": "healingPairReader",
+      "name": "chance",
+      "color": "#e35f12"
+    },
+    "the_vault:broodmother_web": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.ability.BroodmotherWebAttribute"
+    },
+    "the_vault:castle_bastion": {
+      "type": "float",
+      "reader": "CastleBastionModifierReader",
+      "name": "Castle Bastion",
+      "color": "#e35f12"
+    },
+    "the_vault:charm": {
+      "type": "registry",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:charm_vault_god": {
+      "type": "enum",
+      "reader": "none",
+      "name": null,
+      "color": null,
+      "values": [
+        "VELARA",
+        "TENOS",
+        "WENDARR",
+        "IDONA"
+      ]
+    },
+    "the_vault:coin_affinity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Coin Affinity",
+      "color": "#efa016"
+    },
+    "the_vault:cooldown_reduction": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction",
+      "color": "#00f8b4"
+    },
+    "the_vault:cooldown_reduction_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction Cap",
+      "color": "#00f8b4"
+    },
+    "the_vault:cooldown_reduction_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction Percentile",
+      "color": "#00f8b4"
+    },
+    "the_vault:copiously": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Copiously",
+      "color": "#f74780"
+    },
+    "the_vault:crafted_by": {
+      "type": "string",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:crafting_potential": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:critical_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Critical Hit Chance",
+      "color": "#990a00"
+    },
+    "the_vault:critical_hit_mitigation": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Crit Hit Resistance",
+      "color": "#718dff"
+    },
+    "the_vault:damage_assassin": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Assassin Damage",
+      "color": "#b54ae7"
+    },
+    "the_vault:damage_baby": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Toddler Damage",
+      "color": "#700604"
+    },
+    "the_vault:damage_champion": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Champion Damage",
+      "color": "#5ece0c"
+    },
+    "the_vault:damage_dungeon": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Dungeon Damage",
+      "color": "#0c90ce"
+    },
+    "the_vault:damage_dweller": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Dweller Damage",
+      "color": "#f28a9b"
+    },
+    "the_vault:damage_horde": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Horde Damage",
+      "color": "#c7ce0c"
+    },
+    "the_vault:damage_illagers": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Illager Damage",
+      "color": "#009fb2"
+    },
+    "the_vault:damage_increase": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Attack Damage",
+      "color": "#ff6b00"
+    },
+    "the_vault:damage_nether": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Nether Damage",
+      "color": "#ff935e"
+    },
+    "the_vault:damage_spiders": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Arthropods Damage",
+      "color": "#dac8ad"
+    },
+    "the_vault:damage_tank": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Tank Damage",
+      "color": "#ce350c"
+    },
+    "the_vault:damage_undead": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Undead Damage",
+      "color": "#f9f8b0"
+    },
+    "the_vault:double_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Double Damage Chance",
+      "color": "#c84126"
+    },
+    "the_vault:durability": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Durability",
+      "color": "#dfd0fe"
+    },
+    "the_vault:durability_wear_reduction": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Durability Damage Reduction",
+      "color": "#69d68f"
+    },
+    "the_vault:durability_wear_reduction_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Durability Wear Reduction Cap",
+      "color": "#08cd25"
+    },
+    "the_vault:effect": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectGearAttribute"
+    },
+    "the_vault:effect_avoidance": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectAvoidanceGearAttribute"
+    },
+    "the_vault:effect_cloud": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectCloudAttribute"
+    },
+    "the_vault:effect_cloud_when_hit": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectCloudAttribute"
+    },
+    "the_vault:effect_duration": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Effect Duration",
+      "color": "#adc9ff"
+    },
+    "the_vault:effect_immunity": {
+      "type": "registry",
+      "reader": "EffectImmunityModifierReader",
+      "name": null,
+      "color": null
+    },
+    "the_vault:effect_list_avoidance": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectAvoidanceListGearAttribute"
+    },
+    "the_vault:effect_trail": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.effect.EffectTrialAttribute"
+    },
+    "the_vault:etching": {
+      "type": "identifier",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:fall_immunity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Fall Damage Immunity",
+      "color": "#06d168"
+    },
+    "the_vault:fatal_strike_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fatal Strike Chance",
+      "color": "#fc2000"
+    },
+    "the_vault:fatal_strike_damage": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fatal Strike Damage",
+      "color": "#bf0d00"
+    },
+    "the_vault:fire_immunity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Fire Immunity",
+      "color": "#d16c06"
+    },
+    "the_vault:fruit_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fruit Efficiency",
+      "color": "#de3163"
+    },
+    "the_vault:fullfill_all_affix": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_color": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_model": {
+      "type": "identifier",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_name": {
+      "type": "string",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_roll_type": {
+      "type": "string",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_roll_type_pool": {
+      "type": "string",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gear_unique_pool": {
+      "type": "identifier",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:gilded_affinity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Gilded Affinity",
+      "color": "#ffe42c"
+    },
+    "the_vault:greed_tier": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:hammer_size": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Hammer Size",
+      "color": "#25d4a5"
+    },
+    "the_vault:hammering": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Hammering",
+      "color": "#25d4a5"
+    },
+    "the_vault:healing_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Healing Efficiency",
+      "color": "#8eff22"
+    },
+    "the_vault:health": {
+      "type": "float",
+      "reader": "addedRoundedDecimalReader",
+      "name": "Health",
+      "color": "#22ff25"
+    },
+    "the_vault:health_percentile": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Health",
+      "color": "#7af16e"
+    },
+    "the_vault:hit_hearts": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Heart Frag Chance",
+      "color": "#22ff25"
+    },
+    "the_vault:hydrovoid": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Hydrovoid",
+      "color": "#00fcff"
+    },
+    "the_vault:idona_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Idona Affinity",
+      "color": null
+    },
+    "the_vault:imbued": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:immortality": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Vanilla Immortality",
+      "color": "#cdf392"
+    },
+    "the_vault:is_abyssal": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:is_corrupted": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:is_dungeoned": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:is_legendary": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:is_loot": {
+      "type": "boolean",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:item_quantity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Item Quantity",
+      "color": "#e88a12"
+    },
+    "the_vault:item_rarity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Item Rarity",
+      "color": "#eaff00"
+    },
+    "the_vault:jester_lucky_hit_chance_percentile": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Jester\\'s Luck",
+      "color": "#e35f12"
+    },
+    "the_vault:jewel_size": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Size",
+      "color": "#dddddd"
+    },
+    "the_vault:kinetic_immunity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Kinetic Damage Immunity",
+      "color": "#06d168"
+    },
+    "the_vault:knockback_resistance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Knockback Resist",
+      "color": "#ffb00f"
+    },
+    "the_vault:leech": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Leech",
+      "color": "#ff1414"
+    },
+    "the_vault:living": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Living",
+      "color": "#0ba32f"
+    },
+    "the_vault:living_affinity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Living Affinity",
+      "color": "#72ff41"
+    },
+    "the_vault:lucky_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Lucky Hit Chance",
+      "color": "#6df5a3"
+    },
+    "the_vault:lucky_hit_chance_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Lucky Hit Chance Percent Of Base",
+      "color": "#6df5a3"
+    },
+    "the_vault:lucky_thorns": {
+      "type": "boolean",
+      "reader": "LuckyThornsModifierReader",
+      "name": "Lucky Thorns",
+      "color": "#e35f12"
+    },
+    "the_vault:mana_additive": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Mana",
+      "color": "#00ffff"
+    },
+    "the_vault:mana_additive_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Mana",
+      "color": "#00ffff"
+    },
+    "the_vault:mana_per_looted_tile": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.loot.ManaPerLootAttribute"
+    },
+    "the_vault:mana_regen": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Mana Regen",
+      "color": "#00ffff"
+    },
+    "the_vault:max_crafting_potential": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:mining_speed": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Mining Speed",
+      "color": "#48baf8"
+    },
+    "the_vault:mining_speed_percent": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Mining Speed Percentage",
+      "color": "#e35f12"
+    },
+    "the_vault:movement_speed": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Movement Speed",
+      "color": "#ffe068"
+    },
+    "the_vault:non_recyclable": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Non-Recyclable",
+      "color": "#ff6b6b"
+    },
+    "the_vault:on_hit_aoe": {
+      "type": "int",
+      "reader": "IntegerValueModifierReader",
+      "name": null,
+      "color": "#e35f12"
+    },
+    "the_vault:on_hit_chain": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Chaining Attack",
+      "color": "#5d5eb8"
+    },
+    "the_vault:on_hit_stun": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Stun Attack Chance",
+      "color": "#19a6e4"
+    },
+    "the_vault:on_kill_heal": {
+      "type": "float",
+      "reader": "healingPairReader",
+      "name": "chance",
+      "color": "#e35f12"
+    },
+    "the_vault:ornate_affinity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Ornate Affinity",
+      "color": "#ec2525"
+    },
+    "the_vault:phoenix": {
+      "type": "int",
+      "reader": "IntegerValueModifierReader",
+      "name": null,
+      "color": "#e35f12"
+    },
+    "the_vault:picking": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Picking",
+      "color": "#eaeaea"
+    },
+    "the_vault:prefixes": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:pulverizing": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Pulverizing",
+      "color": "#73b373"
+    },
+    "the_vault:random_vault_god_modifier": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.RandomGodVaultModifierAttribute"
+    },
+    "the_vault:random_vault_modifier": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.talent.RandomVaultModifierAttribute"
+    },
+    "the_vault:range": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Pickup Range",
+      "color": "#f9b37f"
+    },
+    "the_vault:reach": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Reach",
+      "color": "#84d7ff"
+    },
+    "the_vault:reaping": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Reaping",
+      "color": "#3b8a40"
+    },
+    "the_vault:relentless_strike": {
+      "type": "float",
+      "reader": "RelentlessStrikeModifierReader",
+      "name": "Relentless Strike",
+      "color": "#e35f12"
+    },
+    "the_vault:relentless_strike_attribute": {
+      "type": "custom",
+      "reader": null,
+      "name": null,
+      "color": null,
+      "class": "iskallia.vault.gear.attribute.custom.RelentlessStrikeAttribute"
+    },
+    "the_vault:resistance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Resistance",
+      "color": "#fedd00"
+    },
+    "the_vault:resistance_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Resistance Cap",
+      "color": "#fedd00"
+    },
+    "the_vault:resistance_greed_assassin": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Greed Assassin Resistance",
+      "color": "#b54ae7"
+    },
+    "the_vault:shocking_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Shocking Hit Chance",
+      "color": "#d2e05b"
+    },
+    "the_vault:shovelling": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Shovelling",
+      "color": "#e2e69f"
+    },
+    "the_vault:smelting": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Smelting",
+      "color": "#ff7200"
+    },
+    "the_vault:soul_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Soul Quantity",
+      "color": "#4800ff"
+    },
+    "the_vault:soul_chance_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Soul Quantity Percentile",
+      "color": "#4800ff"
+    },
+    "the_vault:soulbound": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Soulbound",
+      "color": "#9664fd"
+    },
+    "the_vault:state": {
+      "type": "enum",
+      "reader": "none",
+      "name": null,
+      "color": null,
+      "values": [
+        "UNIDENTIFIED",
+        "ROLLING",
+        "IDENTIFIED"
+      ]
+    },
+    "the_vault:suffixes": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:sweeping_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Sweeping Hit Chance",
+      "color": "#e0ba61"
+    },
+    "the_vault:sweeping_hit_damage": {
+      "type": "float",
+      "reader": "SweepingDamageReader",
+      "name": null,
+      "color": "#e0ba61"
+    },
+    "the_vault:tenos_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Tenos Affinity",
+      "color": null
+    },
+    "the_vault:third_attack": {
+      "type": "float",
+      "reader": "ThirdAttackModifierReader",
+      "name": "Third Attack",
+      "color": "#e35f12"
+    },
+    "the_vault:thorns_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Thorns Chance",
+      "color": "#ffc0cb"
+    },
+    "the_vault:thorns_damage": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Thorns Damage",
+      "color": "#ec9ec0"
+    },
+    "the_vault:thorns_damage_flat": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Thorns Damage",
+      "color": "#ec9ec0"
+    },
+    "the_vault:thorns_knockback": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Thorns Knockback",
+      "color": "#ffbb95"
+    },
+    "the_vault:tool_capacity": {
+      "type": "int",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:tool_material": {
+      "type": "enum",
+      "reader": "none",
+      "name": null,
+      "color": null,
+      "values": [
+        "CHROMATIC_IRON_INGOT",
+        "CHROMATIC_STEEL_INGOT",
+        "VAULTERITE_INGOT",
+        "VAULT_ALLOY",
+        "BLACK_CHROMATIC_STEEL_INGOT",
+        "ECHOING_INGOT",
+        "OMEGA_POG",
+        "ROYALE"
+      ]
+    },
+    "the_vault:trap_disarming": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Trap Disarm Chance",
+      "color": "#8143ff"
+    },
+    "the_vault:trinket": {
+      "type": "registry",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:unique_item_key": {
+      "type": "identifier",
+      "reader": "none",
+      "name": null,
+      "color": null
+    },
+    "the_vault:vault_charm_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Vault Charm Efficiency",
+      "color": "#8b5cf6"
+    },
+    "the_vault:velara_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Velara Affinity",
+      "color": null
+    },
+    "the_vault:velocity": {
+      "type": "float",
+      "reader": "addedRoundedDecimalReader",
+      "name": "Pull Speed",
+      "color": "#dee79f"
+    },
+    "the_vault:warp_projectile_speed": {
+      "type": "float",
+      "reader": "FloatValueModifierReader",
+      "name": "Warp Projectile Speed",
+      "color": "#e35f12"
+    },
+    "the_vault:wendarr_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Wendarr Affinity",
+      "color": null
+    },
+    "the_vault:wooden_affinity": {
+      "type": "boolean",
+      "reader": "booleanReader",
+      "name": "Wooden Affinity",
+      "color": "#ab6a2e"
+    }
+  },
+  "effectLabels": {
+    "angel": "Angel",
+    "battle_trance": "Battle Trance",
+    "berserk": "Berserk",
+    "berserking": "Berserking",
+    "bleed": "Bleed",
+    "blood_rush": "Blood Rush",
+    "bottle": "Steroids",
+    "chilled": "Chilled",
+    "corruption": "Corruption",
+    "depleted": "Depleted",
+    "empower": "Empower",
+    "empower_coop": "Empower",
+    "empower_ice_armour": "Empower: Ice Armour",
+    "empower_slowness_aura": "Empower: Entropic Bind",
+    "empower_speed": "Empower: Speed",
+    "execute": "Execute",
+    "ghost_walk": "Ghost Walk",
+    "ghost_walk_spirit_walk": "Spirit Walk",
+    "immortality": "Immortality",
+    "immunity": "Immunity",
+    "last_stand": "Last Stand",
+    "life_tap_lucky_hit": "Life Tap: Lucky Hit",
+    "mana_shield": "Mana Shield",
+    "methodical": "Methodical",
+    "noai": "Mob NoAi",
+    "nullify_area_of_effect": "No Area Of Effect",
+    "parry": "Parry",
+    "prime_amplification": "Prime Amplification",
+    "purifying_aura": "Purifying Aura",
+    "pylon": "Pylon",
+    "pylon_overflow": "Pylon",
+    "pyretic": "Pyretic",
+    "rage": "Rage",
+    "rampage": "Rampage",
+    "rampage_chain": "Rampage: Chain",
+    "rampage_leech": "Rampage: Vampire",
+    "reach": "Reach",
+    "relentless_strike": "Relentless Strike",
+    "shadow_cloak": "Shadow Cloak",
+    "shell_porcupine": "Shell: Porcupine",
+    "shield_bash_retribution": "Shield Bash Retribution",
+    "smite": "Smite",
+    "smite_archon": "Smite: Archon",
+    "smite_thunderstorm": "Smite: Thunderstorm",
+    "sorcery": "Sorcery",
+    "stonefall": "Stonefall",
+    "stonefall_cold": "Coldsnap",
+    "stoneskin": "Stoneskin",
+    "taunt": "Taunt",
+    "taunt_repel_mob": "Fear",
+    "taunt_repel_player": "Fear",
+    "time_acceleration": "Time Acceleration",
+    "totem_mana_regen": "Totem: Spirit",
+    "totem_rejuvenation": "Totem: Rejuvenation",
+    "treasure": "Aspect of Treasure",
+    "vault_powerup": "Powered Up",
+    "vulnerable": "Vulnerable",
+    "witchery": "Witchery"
+  }
+}

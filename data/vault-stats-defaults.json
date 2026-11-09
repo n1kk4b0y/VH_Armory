@@ -1,0 +1,141 @@
+{
+  "source": "the_vault-1.18.2-20.0.3-remastered.6872.jar / VaultStatsConfig.reset and MinedBlocksStat.ALLOWED_BLOCKS",
+  "blockIds": {
+    "1": "the_vault:treasure_sand",
+    "2": "the_vault:coin_pile",
+    "3": "the_vault:ore_alexandrite",
+    "4": "the_vault:ore_benitoite",
+    "5": "the_vault:ore_larimar",
+    "6": "the_vault:ore_black_opal",
+    "7": "the_vault:ore_painite",
+    "8": "the_vault:ore_iskallium",
+    "9": "the_vault:ore_gorginite",
+    "10": "the_vault:ore_sparkletine",
+    "11": "the_vault:ore_wutodie",
+    "12": "the_vault:ore_ashium",
+    "13": "the_vault:ore_bomignite",
+    "15": "the_vault:ore_tubium",
+    "16": "the_vault:ore_upaline",
+    "17": "the_vault:ore_puffium",
+    "18": "the_vault:ore_petzanite",
+    "19": "the_vault:ore_xenium",
+    "20": "the_vault:ore_echo"
+  },
+  "config": {
+    "chests": {
+      "WOODEN": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "GILDED": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "LIVING": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "ORNATE": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "TREASURE": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "ALTAR": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "HARDENED": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "ENIGMA": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "FLESH": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      }
+    },
+    "barrels": {
+      "WOODEN": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "GILDED": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "LIVING": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      },
+      "ORNATE": {
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 10
+      }
+    },
+    "blocksMined": {
+      "the_vault:ore_black_opal": 1,
+      "the_vault:coin_pile": 1,
+      "the_vault:ore_petzanite": 1,
+      "the_vault:ore_larimar": 1,
+      "the_vault:ore_puffium": 1,
+      "the_vault:ore_tubium": 1,
+      "the_vault:ore_ashium": 1,
+      "the_vault:ore_upaline": 1,
+      "the_vault:ore_echo": 1,
+      "the_vault:ore_benitoite": 1,
+      "the_vault:ore_gorginite": 1,
+      "the_vault:ore_wutodie": 1,
+      "the_vault:ore_painite": 1,
+      "the_vault:ore_alexandrite": 1,
+      "the_vault:ore_xenium": 1,
+      "the_vault:ore_bomignite": 1,
+      "the_vault:ore_iskallium": 1,
+      "the_vault:treasure_sand": 1,
+      "the_vault:ore_sparkletine": 1
+    },
+    "treasureRoomsOpened": 50,
+    "mobsKilled": {
+      "minecraft:default": 0.3,
+      "the_vault:elite_spider": 2
+    },
+    "completion": {
+      "default": {
+        "BAILED": 0,
+        "FAILED": 0,
+        "COMPLETED": 1000
+      }
+    }
+  }
+}

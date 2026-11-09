@@ -1,0 +1,2544 @@
+{
+  "source": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json",
+  "sourceUrl": "https://www.curseforge.com/minecraft/modpacks/vault-hunters-third-edition-remastered/files/8501770",
+  "configSha256": "ac25a9e6bfef8d39aeb188c24706d72a2c26621f8e7efe1c4d25c91c2a1f8da3",
+  "temporalIds": [
+    "the_vault:bronze_nuke",
+    "the_vault:champion_domain",
+    "the_vault:daycare",
+    "the_vault:door_hunter",
+    "the_vault:glued_mobs",
+    "the_vault:kill_hunter",
+    "the_vault:kill_nuke",
+    "the_vault:kill_totem",
+    "the_vault:loot_goblin",
+    "the_vault:lunar",
+    "the_vault:overpower",
+    "the_vault:pylon_hunter",
+    "the_vault:rock_solid",
+    "the_vault:soul_fest",
+    "the_vault:ultimate_regeneration"
+  ],
+  "modifiers": {
+    "the_vault:ability_cast_failure": {
+      "name": "Ability Cast Failure",
+      "description": "+25% Ability Cast Failure",
+      "descriptionFormat": null,
+      "color": "#FF0000",
+      "icon": "the_vault:gui/modifiers/ability_break",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ability_power": {
+      "name": "Ability Power",
+      "description": "+5% Ability Power",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:abundant_souls": {
+      "name": "Abundant Souls",
+      "description": "+250% Soul Shard Quantity",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/soul_shard_increase_pink",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:afterlife": {
+      "name": "Afterlife",
+      "description": "You will gain 50% less experience in this vault, but if you die you will keep your inventory and receive a durability penalty.",
+      "descriptionFormat": null,
+      "color": "#0FA6E3",
+      "icon": "the_vault:gui/modifiers/afterlife",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:antiheal": {
+      "name": "Velara's Wrath",
+      "description": "-20% Healing Efficiency",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/velara",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:auto_scrap_gear": {
+      "name": "Blacksmith Capstone",
+      "description": "Instead of finding gear in this vault, you find the scrapped result!",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/blacksmith",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:b_quant_1": {
+      "name": "Generous",
+      "description": "+5% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffbf50",
+      "icon": "the_vault:gui/modifiers/item_quant_1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:backwards": {
+      "name": "Backwards",
+      "description": "See behind you!",
+      "descriptionFormat": null,
+      "color": "#7738C9",
+      "icon": "the_vault:gui/modifiers/backwards",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:beginners_grace": {
+      "name": "Beginner's Grace",
+      "description": "If killed in the vault you will keep your inventory but receive a durability penalty.",
+      "descriptionFormat": null,
+      "color": "#FF8900",
+      "icon": "the_vault:gui/modifiers/beginners_grace",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:beginners_insurance": {
+      "name": "Beginner's Insurance",
+      "description": "Chests can not be trapped",
+      "descriptionFormat": null,
+      "color": "#A3E2F5",
+      "icon": "the_vault:gui/modifiers/safezone",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:bingo": {
+      "name": "Bingo!",
+      "description": "Every BINGO Increases Item Quantity & Rarity by 10%, and boosts soul quantity by 25%",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/bingo",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:bingo_quantity": {
+      "name": "Bingo Quantity",
+      "description": "+10% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffcc73",
+      "icon": "the_vault:gui/modifiers/item_quant_2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:bingo_rarity": {
+      "name": "Bingo Rarity",
+      "description": "+10% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:bronze_nuke": {
+      "name": "Coin Explosion",
+      "description": "Killing a mob will have it drop bronze or silver!",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/kill_coin",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:brutal_chunky_mobs": {
+      "name": "Brutally Chunky Mobs",
+      "description": "+50% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:brutal_faster_mobs": {
+      "name": "Brutal Faster Mobs",
+      "description": "+10% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/rapid_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:brutal_mobs": {
+      "name": "Brutal Mobs",
+      "description": "+50% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/furious",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:brutal_mobs_combo": {
+      "name": "Brutal Mobs",
+      "description": "Mobs gain +50% Damage, +50% Health and +20% Movement Speed",
+      "descriptionFormat": null,
+      "color": "#631F1F",
+      "icon": "the_vault:gui/modifiers/furious",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:buffed": {
+      "name": "Buffed",
+      "description": "Adds Mana Regen, Cooldown Reduction, Damage, Ability Power, Movement Speed and Health",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/stronk",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_artifact": {
+      "name": "Cake Artifact",
+      "description": "Every stack increases the artifact chance by 0.5%",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/more_artifact1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_cascade_gilded": {
+      "name": "Gilded",
+      "description": "+5% Gilded Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/gilded",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_cascade_living": {
+      "name": "Living",
+      "description": "+5% Living Chests",
+      "descriptionFormat": null,
+      "color": "#38d800",
+      "icon": "the_vault:gui/modifiers/living",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_cascade_ornate": {
+      "name": "Ornate",
+      "description": "+5% Ornate Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/ornate",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_cascade_wooden": {
+      "name": "Wooden",
+      "description": "+5% Wooden Chests",
+      "descriptionFormat": null,
+      "color": "#c7b281",
+      "icon": "the_vault:gui/modifiers/wooden",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_chunky_mobs": {
+      "name": "Heavy",
+      "description": "+1% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_coin_cascade": {
+      "name": "Wealthy",
+      "description": "+10% Coin Piles",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/wealthy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_furious_mobs": {
+      "name": "Anger",
+      "description": "+1% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/frenzy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_haunted": {
+      "name": "Haunted",
+      "description": "+10% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_hunter": {
+      "name": "Cake Hunter",
+      "description": "Highlights Cakes in this vault",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/cake_layer",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_item_quantity": {
+      "name": "Delicious",
+      "description": "+1% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/opulent",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_item_rarity": {
+      "name": "Sweet",
+      "description": "+1% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer": {
+      "name": "Cake Layer",
+      "description": "Increases mob damage, mob speed, soul shards, all chest spawns, coins, the amount of items in the crake and the chance of getting an artifact",
+      "descriptionFormat": null,
+      "color": "#f6659b",
+      "icon": "the_vault:gui/modifiers/cake_layer",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer_itemrarity": {
+      "name": "Sweet",
+      "description": "+1% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer_mobdmg": {
+      "name": "Anger",
+      "description": "+8% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/frenzy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer_mobhealth": {
+      "name": "Heavy",
+      "description": "+0,05% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer_mobspeed": {
+      "name": "Rapid Mobs",
+      "description": "+0,15% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/rapid_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_layer_soulshards": {
+      "name": "Haunted",
+      "description": "+10% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_mob_increase": {
+      "name": "Onslaught",
+      "description": "+10% Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#FC7C5C",
+      "icon": "the_vault:gui/modifiers/mob_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cake_ores": {
+      "name": "Soul Plentiful",
+      "description": "+5% Vault Ores",
+      "descriptionFormat": null,
+      "color": "#FF85FF",
+      "icon": "the_vault:gui/modifiers/plentiful",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:casual": {
+      "name": "Casual Mode",
+      "description": "If killed in the vault you will keep your inventory, there is also no durability penalty.",
+      "descriptionFormat": null,
+      "color": "#FF8900",
+      "icon": "the_vault:gui/modifiers/beginners_grace",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cdr_5": {
+      "name": "Cooldown Reduction",
+      "description": "+5% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:challenge_fortune": {
+      "name": "Challenge Vein",
+      "description": "10x Challenge Room Chance",
+      "descriptionFormat": null,
+      "color": "#FF4500",
+      "icon": "the_vault:gui/modifiers/challenge_fortune",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:challenge_stack": {
+      "name": "Challenge Stack",
+      "description": "Increases mob damage, health, spawn rates and movement speed.",
+      "descriptionFormat": null,
+      "color": "#ba0000",
+      "icon": "the_vault:gui/modifiers/challenging",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:champion_chance": {
+      "name": "Champion's Abode",
+      "description": "+10% Chance for Champions to Spawn",
+      "descriptionFormat": null,
+      "color": "#c346aa",
+      "icon": "the_vault:gui/modifiers/champions_abode",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:champion_domain": {
+      "name": "Champion's Domain",
+      "description": "Increased Chance for Champions to Spawn",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/champion_domain",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:champion_paradox": {
+      "name": "More Champions",
+      "description": "+5% Chance for Champions to Spawn",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/champion_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:chaos": {
+      "name": "Chaos",
+      "description": "A Chaotic Experience",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:chaos_return": {
+      "name": "Chaos Return",
+      "description": "Completing a chaos task teleports you back to the start",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/shuffle",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cherry": {
+      "name": "Cherry",
+      "description": "+30 seconds Vault Time",
+      "descriptionFormat": null,
+      "color": "#2F86AE",
+      "icon": "the_vault:gui/modifiers/extended",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:chunky_mobs": {
+      "name": "Chunky Mobs",
+      "description": "+50% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:chunky_mobs2": {
+      "name": "Chunky Mobs",
+      "description": "+20% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:chunky_scale": {
+      "name": "Chunky Scale",
+      "description": "Mobs are chunky in size",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/daycare",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:clumsy": {
+      "name": "Clumsy",
+      "description": "-10% Parry",
+      "descriptionFormat": null,
+      "color": "#CB866D",
+      "icon": "the_vault:gui/modifiers/clumsy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:coin_cascade": {
+      "name": "Wealthy",
+      "description": "+25% Coin Piles",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/wealthy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:coin_chest_loot": {
+      "name": "Coin Chest Loot",
+      "description": "Wooden, Gilded, Living, and Ornate chests have a 10% chance to generate Coin Pile loot.",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/bonus_coin",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:coin_pile": {
+      "name": "Bonus Coins",
+      "description": "+1 Set of Coin Stacks",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/bonus_coin",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:collapsing": {
+      "name": "Collapsing",
+      "description": "This vault seem to be collapsing",
+      "descriptionFormat": null,
+      "color": "#E83F24",
+      "icon": "the_vault:gui/modifiers/chaotic",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:companion_challenge": {
+      "name": "Companion's Challenge",
+      "description": "Increases mob damage, health, spawn rates and movement speed.",
+      "descriptionFormat": null,
+      "color": "#ba0000",
+      "icon": "the_vault:gui/modifiers/companion_challenge",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:companion_curse": {
+      "name": "Companion's Curse",
+      "description": "Lowers the vault time with 2.5 minutes",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_voidpools",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:companion_experience_death": {
+      "name": "Wise Mobs",
+      "description": "Mobs are wise and adds experience to any joined companion when killed",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/wisemobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:companion_hunt": {
+      "name": "Companion Hunt",
+      "description": "You are guaranteed to be offered a companion if you reach the threshold!",
+      "descriptionFormat": null,
+      "color": "#acbde8",
+      "icon": "the_vault:gui/modifiers/companion_hunt",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:companion_shortened": {
+      "name": "Shortened",
+      "description": "-2.5 minute Vault Time",
+      "descriptionFormat": null,
+      "color": "#2F86AE",
+      "icon": "the_vault:gui/modifiers/rush",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:confused": {
+      "name": "Confused",
+      "description": "Left and Right swapped",
+      "descriptionFormat": null,
+      "color": "#7738C9",
+      "icon": "the_vault:gui/modifiers/confused",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cooldown_down": {
+      "name": "Cooldown Reduction",
+      "description": "+20% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:cooldown_reduction": {
+      "name": "CDR",
+      "description": "+80% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:copiously": {
+      "name": "Copiously",
+      "description": "+5% Copiously",
+      "descriptionFormat": null,
+      "color": "#F74780",
+      "icon": "the_vault:gui/modifiers/rich",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:crab_walk": {
+      "name": "Crab Walk",
+      "description": "The only way is sideways",
+      "descriptionFormat": null,
+      "color": "#7738C9",
+      "icon": "the_vault:gui/modifiers/crab_walk",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:crake_quantity": {
+      "name": "Crake Quantity",
+      "description": "+40% Crake Quantity",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/opulent",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:crate_tier": {
+      "name": "Crate Tier",
+      "description": "Increases the reward crate tier once per modifier",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/crate_item_quantity",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:creeping_doom": {
+      "name": "Creeping Doom",
+      "description": "Every Minute in the vault adds 1 challenge stack.",
+      "descriptionFormat": null,
+      "color": "#4A0E4E",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:crit_mobs": {
+      "name": "Lethal",
+      "description": "Mobs in this vault will always hit critical strikes",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/destructive",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:crowded": {
+      "name": "Crowded",
+      "description": "+1 Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#E83F24",
+      "icon": "the_vault:gui/modifiers/crowded",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse": {
+      "name": "Cursed!",
+      "description": "This Vault is Cursed, causing it to have less time",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_voidpools",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_collapsing": {
+      "name": "Collapsing",
+      "description": "This vault is cursed, it's collapsing, has less time, and wild mobs will appear",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_collapsing",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_ethereal": {
+      "name": "Curse Ethereal",
+      "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_explosive": {
+      "name": "Explosive",
+      "description": "This vault is cursed, there are random explosions, wild mobs appears and the vault seems to not populate correctly.",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_explosive",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_freezing": {
+      "name": "Freezing Mobs",
+      "description": "This vault is cursed, mobs freeze you when attacking, wild mobs appears and the vault seems to not populate correctly.",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_freezing",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_voiding": {
+      "name": "Void Pools",
+      "description": "This vault is cursed, void pools have spawned, wild mobs appears and the vault seems to not populate correctly.",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_voidpools",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:curse_wrecked": {
+      "name": "Wrecked Vault",
+      "description": "This vault is cursed, mobs freeze you when attacking, it has less time, and wild mobs will appear",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/curse_wrecked",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:daycare": {
+      "name": "Daycare",
+      "description": "The mobs are visiting daycare and have shrunk by half their size, and have 50% less damage!",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/daycare",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:daycare_scale": {
+      "name": "Scale Test",
+      "description": "The mobs are visiting daycare and have shrunk by half their size!",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/daycare",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:daycare_sound": {
+      "name": "Squishy Mobs",
+      "description": "Mobs have been squished so much that they have started to make a noise when they are hit",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/daycare",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:difficult": {
+      "name": "Difficult",
+      "description": "+3 Vault Level",
+      "descriptionFormat": null,
+      "color": "#E20000",
+      "icon": "the_vault:gui/modifiers/difficult",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:door_hunter": {
+      "name": "Door Hunter",
+      "description": "Reveals all doors inside the vault!",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/door_hunter",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:drained": {
+      "name": "Drained",
+      "description": "-70% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/draining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:draining": {
+      "name": "Draining",
+      "description": "-10% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/draining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:dungeon_doors": {
+      "name": "Dungeon Hunter",
+      "description": "Highlights Dungeon Doors in this vault",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/dungeon_doors",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:durability_reduction": {
+      "name": "Durability Reduction",
+      "description": "+100% Durability Reduction",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/reinforced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:dweller_chests": {
+      "name": "Dweller Chests",
+      "description": "Looting chests have a 5% chance to spawn a dweller.",
+      "descriptionFormat": null,
+      "color": "#AA0000",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:easy": {
+      "name": "Easy",
+      "description": "-3 Vault Level",
+      "descriptionFormat": null,
+      "color": "#70FF2A",
+      "icon": "the_vault:gui/modifiers/easy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:energizing": {
+      "name": "Energizing",
+      "description": "+25% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/energizing",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:enervated": {
+      "name": "Enervated",
+      "description": "Healing in this vault is very inefficient",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/antiheal",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:enlighted": {
+      "name": "Enlightened",
+      "description": "+100% Vault Experience",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/experienced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ethereal": {
+      "name": "Ethereal",
+      "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ethereal_mobs": {
+      "name": "Ethereal Mobs",
+      "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+      "descriptionFormat": null,
+      "color": "#631F1F",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:explosive": {
+      "name": "Explosive",
+      "description": "This vault is explosive",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/volcanic",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:extended": {
+      "name": "Extended",
+      "description": "+1 minute Vault Time",
+      "descriptionFormat": null,
+      "color": "#2F86AE",
+      "icon": "the_vault:gui/modifiers/extended",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:extra_reinforced": {
+      "name": "Extra Reinforced",
+      "description": "-100% Durability Damage",
+      "descriptionFormat": null,
+      "color": "#9550FF",
+      "icon": "the_vault:gui/modifiers/reinforced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:fading": {
+      "name": "Fading",
+      "description": "Taking damage in this vault removes hearts instead of emptying them.",
+      "descriptionFormat": null,
+      "color": "#8f3b3b",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:faster_mobs": {
+      "name": "Faster Mobs",
+      "description": "+10% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/rapid_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:fatiguing": {
+      "name": "Fatiguing",
+      "description": "+10% increased chance mobs Fatigue on hit",
+      "descriptionFormat": null,
+      "color": "#9B3E56",
+      "icon": "the_vault:gui/modifiers/hex_chaining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:fortuitous": {
+      "name": "Fortuitous",
+      "description": "+50% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#edff26",
+      "icon": "the_vault:gui/modifiers/item_rarity_3",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:frail": {
+      "name": "Frail",
+      "description": "+20% Durability Damage",
+      "descriptionFormat": null,
+      "color": "#7B7E7F",
+      "icon": "the_vault:gui/modifiers/frail",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:freezing": {
+      "name": "Freezing",
+      "description": "+10% increased chance mobs Slow on hit",
+      "descriptionFormat": null,
+      "color": "#2FFBF4",
+      "icon": "the_vault:gui/modifiers/hex_chilling",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:frenzy": {
+      "name": "Frenzy",
+      "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1",
+      "descriptionFormat": null,
+      "color": "#FC7C5C",
+      "icon": "the_vault:gui/modifiers/frenzy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:fuller_chests": {
+      "name": "Fuller Chests",
+      "description": "+15% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#9eff20",
+      "icon": "the_vault:gui/modifiers/item_quant_2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:furious_mobs": {
+      "name": "Angry Mobs",
+      "description": "+10% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/furious_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:gemstones_on_kill": {
+      "name": "Gemstone Frenzy",
+      "description": "A Small chance to genmerate gemstones when killing a mob",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/gemstone_frenzy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:gilded": {
+      "name": "Bonus Gilded",
+      "description": "+1 Set of Gilded Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/gilded_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:gilded_cascade": {
+      "name": "Gilded",
+      "description": "+25% Gilded Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/gilded",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:gilded_mob_drops": {
+      "name": "Gilded Mob Drops",
+      "description": "Killing a mob has a 10% chance to drop Gilded Chest loot.",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/gilded_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:glued_mobs": {
+      "name": "Glued Mobs",
+      "description": "-90% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/glued_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:goblin_quantity": {
+      "name": "Opulent",
+      "description": "+100% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffcc73",
+      "icon": "the_vault:gui/modifiers/item_quant_2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:goblin_rarity": {
+      "name": "Rarity",
+      "description": "+200% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:greed_trial": {
+      "name": "Greed Trial",
+      "description": "This vault is a Greed Trial, you will face the increasingly powerful Vessel.",
+      "descriptionFormat": null,
+      "color": "#1e31b0",
+      "icon": "the_vault:gui/modifiers/greed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:grievous_wounds": {
+      "name": "Grievous Wounds",
+      "description": "-20% Healing Efficiency",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/antiheal2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:harder_mobs": {
+      "name": "Harder Mobs",
+      "description": "Mobs gain +20% Damage and +20% Health",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/ruthless_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:haunted": {
+      "name": "Soul Harvest",
+      "description": "+50% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/soul_shard_increase_pink",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:herald": {
+      "name": "Herald's Grace",
+      "description": "Dying in this vault does not cause you any item loss, and this vault is of course locked.",
+      "descriptionFormat": null,
+      "color": "#ad2b2b",
+      "icon": "the_vault:gui/modifiers/beginners_grace",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:hoard": {
+      "name": "Hoard",
+      "description": "+50% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffaf23",
+      "icon": "the_vault:gui/modifiers/item_quant_4",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:hunger": {
+      "name": "Hunger",
+      "description": "Hunger",
+      "descriptionFormat": null,
+      "color": "#E8DACD",
+      "icon": "the_vault:gui/modifiers/hunger",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_dmg": {
+      "name": "Idona's Favour",
+      "description": "+50% Damage & +50% Ability Power",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_favour_1": {
+      "name": "Idona's Favour",
+      "description": "Players deal more physical damage in this vault",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_favour_2": {
+      "name": "Idona's Favour",
+      "description": "+1% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_favour_3": {
+      "name": "Idona's Favour",
+      "description": "+0.5% Leech",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_favour_ap": {
+      "name": "Idona's Favour",
+      "description": "Players deal more ability damage in this vault",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_inline": {
+      "name": "Idona's Favour",
+      "description": "Idona Favoured",
+      "descriptionFormat": null,
+      "color": "#d80000",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_soulchance": {
+      "name": "Idona's Favour",
+      "description": "+200% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:idona_tear": {
+      "name": "Idona's Tear",
+      "description": "+1% Idona Affinity",
+      "descriptionFormat": null,
+      "color": "#d80000",
+      "icon": "the_vault:gui/modifiers/idona_tear",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ignore_modifier_extended": {
+      "name": "Wendarr's Challenge",
+      "description": "Extended will not work in this vault",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:incredible_chests": {
+      "name": "Incredible Chests",
+      "description": "+50% Item Quantity and +100% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/loot_goblin",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:inert": {
+      "name": "Inert",
+      "description": "-10% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:infuriated_mobs": {
+      "name": "Rapid Mobs",
+      "description": "+5% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/rapid_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:injured": {
+      "name": "Injured",
+      "description": "-1 Heart",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:injured_percent": {
+      "name": "Injured",
+      "description": "-10% Max Health",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:item_quantity": {
+      "name": "Opulent",
+      "description": "+10% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffcc73",
+      "icon": "the_vault:gui/modifiers/item_quant_2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:item_rarity": {
+      "name": "Lucky",
+      "description": "+10% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#f3ff70",
+      "icon": "the_vault:gui/modifiers/item_rarity_2",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:jupiter_gravity": {
+      "name": "Jupiter Gravity",
+      "description": "No Jump",
+      "descriptionFormat": null,
+      "color": "#7738C9",
+      "icon": "the_vault:gui/modifiers/jupiter_gravity",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kbres": {
+      "name": "Knockback Resistance",
+      "description": "+100% Knockback Resistance",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/draining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_charm": {
+      "name": "Charming",
+      "description": "When killing a mob it will cast Charm around it",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_charm",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_frostnova": {
+      "name": "Frozen Explosion",
+      "description": "When killing a mob it will have a chance of casting a level 8 Frost Nova on their death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_nuke",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_hunter": {
+      "name": "Hunterino",
+      "description": "Mobs have a chance to cast Hunter on death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_hunter",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_nova": {
+      "name": "Nova Explosion",
+      "description": "When killing a mob it will have a chance of casting a level 8 Nova on their death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_nuke",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_nuke": {
+      "name": "Nova Explosion",
+      "description": "Killing a mob will have a high chance of casting a Nova and/or a Frost Nova on its death.",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/kill_nuke",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_totem": {
+      "name": "Totemic",
+      "description": "Killing a mob has a chance of spawning a random Totem",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_totem",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_totem_hatred": {
+      "name": "Totemic",
+      "description": "Mobs have a chance to spawn a Hatred Totem Level 8 on death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_totem",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_totem_rejuv": {
+      "name": "Totemic",
+      "description": "Mobs have a chance to spawn a Rejuvenation Totem Level 8 on death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_totem",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_totem_spirit": {
+      "name": "Totemic",
+      "description": "Mobs have a chance to spawn a Spirit Totem Level 8 on death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_totem",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:kill_totem_wrath": {
+      "name": "Totemic",
+      "description": "Mobs have a chance to spawn a Wrath Totem Level 8 on death",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/kill_totem",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:legendary_duration": {
+      "name": "Cursed Legendaries",
+      "description": "Legendary Modifiers only lasts for 1 minute",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/legendary_curse",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:living": {
+      "name": "Bonus Living",
+      "description": "+1 Set of Living Chests",
+      "descriptionFormat": null,
+      "color": "#38d800",
+      "icon": "the_vault:gui/modifiers/living_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:living_cascade": {
+      "name": "Living",
+      "description": "+25% Living Chests",
+      "descriptionFormat": null,
+      "color": "#38d800",
+      "icon": "the_vault:gui/modifiers/living",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:living_mob_drops": {
+      "name": "Living Mob Drops",
+      "description": "Killing a mob has a 10% chance to drop Living Chest loot.",
+      "descriptionFormat": null,
+      "color": "#38d800",
+      "icon": "the_vault:gui/modifiers/living_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:locked": {
+      "name": "Locked",
+      "description": "Vault can't be bailed",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/raffle",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:locker_debt": {
+      "name": "The Locker's Claim",
+      "description": "Owed and unpaid. Earn no XP until your debt is settled",
+      "descriptionFormat": null,
+      "color": "#76b289",
+      "icon": "the_vault:gui/modifiers/curse_voidpools",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:loot_goblin": {
+      "name": "Loot Goblin",
+      "description": "Adds +100% Item Quantity and +200% Item Rarity!",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/loot_goblin",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:looters_dream": {
+      "name": "Looter's Dream",
+      "description": "Chests can not be trapped",
+      "descriptionFormat": null,
+      "color": "#A3E2F5",
+      "icon": "the_vault:gui/modifiers/safezone",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:lost_quantity": {
+      "name": "Barren",
+      "description": "Chests in this vault are only half filled",
+      "descriptionFormat": null,
+      "color": "#a54726",
+      "icon": "the_vault:gui/modifiers/poor",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:low_item_quantity": {
+      "name": "Generous",
+      "description": "+5% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#ffbf50",
+      "icon": "the_vault:gui/modifiers/item_quant_1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:lower_damage": {
+      "name": "Still Learning Mobs",
+      "description": "-50% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/furious_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:luckier_chests": {
+      "name": "Luckier Chests",
+      "description": "+200% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#9eff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:lucky": {
+      "name": "Lucky",
+      "description": "+1 Luck",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:lunar": {
+      "name": "Lunar",
+      "description": "Mobs in this vault are out of your way, they levitate above the ground.",
+      "descriptionFormat": null,
+      "color": "#c823fa",
+      "icon": "the_vault:gui/modifiers/levitation",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mana_leak": {
+      "name": "Mana Leak",
+      "description": "Players in this vault no longer regenerate mana",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/draining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mana_regen": {
+      "name": "Mana Regen",
+      "description": "+500% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/energizing",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mana_regen_down": {
+      "name": "Lost Mana Regen",
+      "description": "-25% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#849dc8",
+      "icon": "the_vault:gui/modifiers/draining",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mega_regen": {
+      "name": "Regeneration",
+      "description": "+3 Regeneration",
+      "descriptionFormat": null,
+      "color": "#55FF55",
+      "icon": "the_vault:gui/modifiers/regeneration",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:minefield": {
+      "name": "Minefield",
+      "description": "+40% Chest Trap Chance",
+      "descriptionFormat": null,
+      "color": "#D35B00",
+      "icon": "the_vault:gui/modifiers/trapped",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mob_damage_25": {
+      "name": "Angry Mobs",
+      "description": "+25% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/furious_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mob_health_5": {
+      "name": "Heavy",
+      "description": "+10,0% Mob Health",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/chunky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mob_increase": {
+      "name": "Onslaught",
+      "description": "+20% Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#FC7C5C",
+      "icon": "the_vault:gui/modifiers/mob_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:mob_levitate": {
+      "name": "Ballooned",
+      "description": "Mobs will levitate the player on hit",
+      "descriptionFormat": null,
+      "color": "#2FFBF4",
+      "icon": "the_vault:gui/modifiers/ballooned",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:more_experience": {
+      "name": "More Experience",
+      "description": "+15% Vault Experience",
+      "descriptionFormat": null,
+      "color": "#9eff20",
+      "icon": "the_vault:gui/modifiers/experienced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:more_mobs": {
+      "name": "More Mobs",
+      "description": "+25% Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/mob_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:more_mobs_cata": {
+      "name": "Onslaught",
+      "description": "+25% Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/mob_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:more_souls": {
+      "name": "More Souls",
+      "description": "+25% Soul Shard Quantity",
+      "descriptionFormat": null,
+      "color": "#9eff20",
+      "icon": "the_vault:gui/modifiers/soul_shard_increase_yellow",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:more_traps": {
+      "name": "More Traps",
+      "description": "Increases chance of trapped chests and lowers your trap disarm",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/trapped",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:movement_speed": {
+      "name": "Movement Speed",
+      "description": "+2% Movement Speed",
+      "descriptionFormat": null,
+      "color": "#dea700",
+      "icon": "the_vault:gui/modifiers/speed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:nightcare": {
+      "name": "Scale Test",
+      "description": "The mobs are visiting daycare and have shrunk by half their size!",
+      "descriptionFormat": null,
+      "color": "#dc693c",
+      "icon": "the_vault:gui/modifiers/daycare",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:no_companion": {
+      "name": "Companionless",
+      "description": "Companions will not join you in this vault.",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/no_companion",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:no_durability_damage": {
+      "name": "No Durability Damage",
+      "description": "Players take no durability damage in this vault",
+      "descriptionFormat": null,
+      "color": "#9550FF",
+      "icon": "the_vault:gui/modifiers/reinforced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:no_ores": {
+      "name": "No Ores",
+      "description": "-100% Vault Ores",
+      "descriptionFormat": null,
+      "color": "#FF85FF",
+      "icon": "the_vault:gui/modifiers/chaotic",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:no_reward": {
+      "name": "No Crate",
+      "description": "You will not receive a crate on completion.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/no_crate",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:no_souls": {
+      "name": "No Souls",
+      "description": "No Soul Shards Dropped",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_idona",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:noloot_destroy": {
+      "name": "No Loot",
+      "description": "Chests and Champions have no loot in this vault.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/no_loot",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:noxp": {
+      "name": "No XP",
+      "description": "-100% Vault XP Gained",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:objective_difficulty": {
+      "name": "Difficult",
+      "description": "Increases objective difficulty by 20%",
+      "descriptionFormat": null,
+      "color": "#8f3b3b",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:objective_hunter": {
+      "name": "Objective Hunter",
+      "description": "Reveals all objective blocks inside the vault!",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/door_hunter",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:omega_fortune": {
+      "name": "Omega Bloom",
+      "description": "10x Omega Room Chance",
+      "descriptionFormat": null,
+      "color": "#6AFF00",
+      "icon": "the_vault:gui/modifiers/omega_fortune",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:one_hit": {
+      "name": "One Hit",
+      "description": "You will get one-shot.",
+      "descriptionFormat": null,
+      "color": "#8B0000",
+      "icon": "the_vault:gui/modifiers/frenzy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:opulent_ores": {
+      "name": "Opulent Ores",
+      "description": "+50% Copiously",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/rich",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ornate": {
+      "name": "Bonus Ornate",
+      "description": "+1 Set of Ornate Chests",
+      "descriptionFormat": null,
+      "color": "#c90d73",
+      "icon": "the_vault:gui/modifiers/ornate_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ornate_cascade": {
+      "name": "Ornate",
+      "description": "+25% Ornate Chests",
+      "descriptionFormat": null,
+      "color": "#c90d73",
+      "icon": "the_vault:gui/modifiers/ornate",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ornate_mob_drops": {
+      "name": "Ornate Mob Drops",
+      "description": "Killing a mob has a 10% chance to drop Ornate Chest loot.",
+      "descriptionFormat": null,
+      "color": "#c90d73",
+      "icon": "the_vault:gui/modifiers/ornate_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:overpower": {
+      "name": "Overpower",
+      "description": "Mobs spawn with 1 heart!",
+      "descriptionFormat": null,
+      "color": "#FC7C5C",
+      "icon": "the_vault:gui/modifiers/overpower",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:pandoras_box": {
+      "name": "Pandoras Boxes",
+      "description": "Spawns Pandora's Boxes inside the vault",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/pandora",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:peaceful": {
+      "name": "Peaceful",
+      "description": "No Mobs spawn in this vault",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/personalspace",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:personal_space": {
+      "name": "Personal Space",
+      "description": "-1 Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#F9B1FF",
+      "icon": "the_vault:gui/modifiers/personalspace",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:phoenix": {
+      "name": "Phoenix",
+      "description": "If killed in a vault you will be revived instantly and the Phoenix modifier will fizzle",
+      "descriptionFormat": null,
+      "color": "#FF8900",
+      "icon": "the_vault:gui/modifiers/phoenix",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:plentiful": {
+      "name": "Plentiful",
+      "description": "+20% Vault Ores",
+      "descriptionFormat": null,
+      "color": "#FF85FF",
+      "icon": "the_vault:gui/modifiers/plentiful",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:plunder_artifact": {
+      "name": "Plunder Artifact",
+      "description": "Lowers the artifact chance of this vault by 10%",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/more_artifact1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:plunderer": {
+      "name": "Plunderer",
+      "description": "This vault yields no experience, and has a lower chance of finding an artifact, but has 10% more loot and slightly more ores",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/plunderer",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:poisonous": {
+      "name": "Poisonous",
+      "description": "+10% increased chance mobs Poison on hit",
+      "descriptionFormat": null,
+      "color": "#84BF17",
+      "icon": "the_vault:gui/modifiers/hex_poison",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:poor": {
+      "name": "Poor",
+      "description": "-25% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/poor",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:potion_drink": {
+      "name": "Potion Curse",
+      "description": "You drank a vanilla potion, this has upset the gods, chests have lost contents, and a minute has been removed from the vault",
+      "descriptionFormat": null,
+      "color": "#d52424",
+      "icon": "the_vault:gui/modifiers/curse_freezing",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:prismatic": {
+      "name": "Prismatic",
+      "description": "+25% Catalyst Fragments",
+      "descriptionFormat": null,
+      "color": "#FC00E3",
+      "icon": "the_vault:gui/modifiers/more_catalyst",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:pristine": {
+      "name": "Pristine",
+      "description": "+25% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#f0ff4a",
+      "icon": "the_vault:gui/modifiers/item_rarity_1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:prosperous": {
+      "name": "Prosperous",
+      "description": "Completing this vault guarantees an Artifact!",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/more_artifact1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:pylon_hunter": {
+      "name": "Pylon Hunter",
+      "description": "Highlights Pylons in this vault",
+      "descriptionFormat": null,
+      "color": "#FFEA00",
+      "icon": "the_vault:gui/modifiers/pylon_hunter",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:raffle": {
+      "name": "Raffle",
+      "description": "Locks the vault",
+      "descriptionFormat": null,
+      "color": "#C5001B",
+      "icon": "the_vault:gui/modifiers/raffle",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:raid": {
+      "name": "Raid",
+      "description": "No Vault Fruit can be used, and you take no durability damage.",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/raid",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:random_negative": {
+      "name": "Random Negative",
+      "description": "Unknown Negative Modifier",
+      "descriptionFormat": null,
+      "color": "#fe3333",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:regeneration": {
+      "name": "Regeneration",
+      "description": "+1 Regeneration",
+      "descriptionFormat": null,
+      "color": "#55FF55",
+      "icon": "the_vault:gui/modifiers/regeneration",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:reinforced": {
+      "name": "Reinforced",
+      "description": "-10% Durability Damage",
+      "descriptionFormat": null,
+      "color": "#9550FF",
+      "icon": "the_vault:gui/modifiers/reinforced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:richer_ores": {
+      "name": "Richer Ores",
+      "description": "+15% Copiously",
+      "descriptionFormat": null,
+      "color": "#9eff20",
+      "icon": "the_vault:gui/modifiers/rich",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:rock_solid": {
+      "name": "Rock Solid",
+      "description": "+50% Resistance and +100% Knockback Resistance",
+      "descriptionFormat": null,
+      "color": "#e6dfc6",
+      "icon": "the_vault:gui/modifiers/rock_solid",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:rotten": {
+      "name": "Rotten",
+      "description": "Vault Fruit does not extend time.",
+      "descriptionFormat": null,
+      "color": "#A0AF5B",
+      "icon": "the_vault:gui/modifiers/rotten",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:royale": {
+      "name": "Royale",
+      "description": "Vault Royale Objective",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/royale",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:royale_crates": {
+      "name": "Royale Crates",
+      "description": "Royale Loot Crates will spawn",
+      "descriptionFormat": null,
+      "color": "#CBC3E3",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:royales_challenge": {
+      "name": "Royale Challenge",
+      "description": "+20% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/ruthless_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:rushed": {
+      "name": "Rushed",
+      "description": "-1 minute Vault Time",
+      "descriptionFormat": null,
+      "color": "#FFCD6F",
+      "icon": "the_vault:gui/modifiers/rush",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ruthless_mobs": {
+      "name": "Ruthless Mobs",
+      "description": "+20% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/ruthless_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:saturation": {
+      "name": "Saturation",
+      "description": "+1 Saturation",
+      "descriptionFormat": null,
+      "color": "#fc7b2b",
+      "icon": "the_vault:gui/modifiers/saturation",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:serendipitous": {
+      "name": "Serendipitous",
+      "description": "+20% Artifact Chance",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/more_artifact1",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:shortened": {
+      "name": "Shortened",
+      "description": "-1 minute Vault Time",
+      "descriptionFormat": null,
+      "color": "#2F86AE",
+      "icon": "the_vault:gui/modifiers/rush",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:shuffle": {
+      "name": "Shuffle",
+      "description": "Shuffle to the left... Shuffle to the right... Shuffle all around the room!",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/shuffle",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:shulker": {
+      "name": "Shulkered",
+      "description": "This vault is light weight",
+      "descriptionFormat": null,
+      "color": "#CBC3E3",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:sigil_adept": {
+      "name": "Adept",
+      "description": "This vault has been inscribed with an Adept Sigil",
+      "descriptionFormat": null,
+      "color": "#00FF00",
+      "icon": "the_vault:gui/modifiers/sigil_adept",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:sigil_expert": {
+      "name": "Expert",
+      "description": "This vault has been inscribed with an Expert Sigil",
+      "descriptionFormat": null,
+      "color": "#00FF00",
+      "icon": "the_vault:gui/modifiers/sigil_expert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:sigil_legend": {
+      "name": "Legend",
+      "description": "This vault has been inscribed with a Legend Sigil",
+      "descriptionFormat": null,
+      "color": "#00FF00",
+      "icon": "the_vault:gui/modifiers/sigil_legend",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:sigil_master": {
+      "name": "Master",
+      "description": "This vault has been inscribed with a Master Sigil",
+      "descriptionFormat": null,
+      "color": "#00FF00",
+      "icon": "the_vault:gui/modifiers/sigil_master",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:sigil_veteran": {
+      "name": "Veteran",
+      "description": "This vault has been inscribed with a Veteran Sigil",
+      "descriptionFormat": null,
+      "color": "#00FF00",
+      "icon": "the_vault:gui/modifiers/sigil_veteran",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:slowed": {
+      "name": "Slowed",
+      "description": "+1 Slowness",
+      "descriptionFormat": null,
+      "color": "#4C6786",
+      "icon": "the_vault:gui/modifiers/slowed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:slowed_t2": {
+      "name": "Slowed T2",
+      "description": "+2 Slowness",
+      "descriptionFormat": null,
+      "color": "#4C6786",
+      "icon": "the_vault:gui/modifiers/slowed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:slowfalling": {
+      "name": "Weightless",
+      "description": "You are weightless",
+      "descriptionFormat": null,
+      "color": "#4C6786",
+      "icon": "the_vault:gui/modifiers/weightless",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_boost": {
+      "name": "Soul Boost",
+      "description": "+25% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/soul_shard_increase_yellow",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_cascade_gilded": {
+      "name": "Gilded",
+      "description": "+1% Gilded Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/gilded",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_cascade_living": {
+      "name": "Living",
+      "description": "+5% Living Chests",
+      "descriptionFormat": null,
+      "color": "#38d800",
+      "icon": "the_vault:gui/modifiers/living",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_cascade_ornate": {
+      "name": "Ornate",
+      "description": "+1% Ornate Chests",
+      "descriptionFormat": null,
+      "color": "#FFEC00",
+      "icon": "the_vault:gui/modifiers/ornate",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_cascade_wooden": {
+      "name": "Wooden",
+      "description": "+5% Wooden Chests",
+      "descriptionFormat": null,
+      "color": "#c7b281",
+      "icon": "the_vault:gui/modifiers/wooden",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_coin_cascade": {
+      "name": "Wealthy",
+      "description": "+10% Coin Piles",
+      "descriptionFormat": null,
+      "color": "#ffae00",
+      "icon": "the_vault:gui/modifiers/wealthy",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_fest": {
+      "name": "Soul Fest",
+      "description": "+1000% Soul Shards",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/soul_fest",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_flame": {
+      "name": "Flame",
+      "description": "Your streak of this ascension, each stack increases the difficulty of the objective.",
+      "descriptionFormat": null,
+      "color": "#19ebef",
+      "icon": "the_vault:gui/modifiers/flame",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_item": {
+      "name": "Soul Item Quantity",
+      "description": "+2% Item Quantity",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/opulent",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_locked": {
+      "name": "Locked",
+      "description": "This vault can not be exited without completing it.",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/raffle",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_objective": {
+      "name": "Difficult",
+      "description": "Increases objective difficulty by 2%",
+      "descriptionFormat": null,
+      "color": "#8f3b3b",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_ores": {
+      "name": "Soul Plentiful",
+      "description": "+5% Vault Ores",
+      "descriptionFormat": null,
+      "color": "#FF85FF",
+      "icon": "the_vault:gui/modifiers/plentiful",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_rarity": {
+      "name": "Soul Rarity",
+      "description": "+2% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/lucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_shards": {
+      "name": "Soul Shards",
+      "description": "+5% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/haunted",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_surge": {
+      "name": "Soul Surge",
+      "description": "+100% Soul Shard Drop Rate",
+      "descriptionFormat": null,
+      "color": "#6410A1",
+      "icon": "the_vault:gui/modifiers/soul_shard_increase_pink",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soul_xp": {
+      "name": "Extra Vault Experience",
+      "description": "+2% Vault XP Gained",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/experienced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:soulless": {
+      "name": "Soulless",
+      "description": "Mobs in this vault do not drop soul shards",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/no_soul_shard",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:spawner_cascade": {
+      "name": "Spawned",
+      "description": "+30% Spawners",
+      "descriptionFormat": null,
+      "color": "#c90d73",
+      "icon": "the_vault:gui/modifiers/wealhty",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:speedy": {
+      "name": "Speedy",
+      "description": "+1 Speed",
+      "descriptionFormat": null,
+      "color": "#00CDFF",
+      "icon": "the_vault:gui/modifiers/speed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:spell_failure": {
+      "name": "Spell Failure",
+      "description": "Spells have a 50% chance to not cast.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/legendary_modifier",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:strength": {
+      "name": "Strength",
+      "description": "+1 Strength",
+      "descriptionFormat": null,
+      "color": "#d73b46",
+      "icon": "the_vault:gui/modifiers/stronk",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:stronger_mobs": {
+      "name": "Stronger Mobs",
+      "description": "+20% Mob Damage and Health",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/armored_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:stronk": {
+      "name": "Stronk",
+      "description": "+1 Strength",
+      "descriptionFormat": null,
+      "color": "#d73b46",
+      "icon": "the_vault:gui/modifiers/stronk",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:swift": {
+      "name": "Swift",
+      "description": "+1 Speed",
+      "descriptionFormat": null,
+      "color": "#FFE068",
+      "icon": "the_vault:gui/modifiers/speed",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tanky": {
+      "name": "Tanky",
+      "description": "+50% Resistance",
+      "descriptionFormat": null,
+      "color": "#CA9A5B",
+      "icon": "the_vault:gui/modifiers/vulnerable",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_favour_1": {
+      "name": "Tenos' Favour",
+      "description": "+1% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#55FFFF",
+      "icon": "the_vault:gui/modifiers/god_token_tenos",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_favour_2": {
+      "name": "Tenos' Favour",
+      "description": "Chests contain more loot",
+      "descriptionFormat": null,
+      "color": "#55FFFF",
+      "icon": "the_vault:gui/modifiers/god_token_tenos",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_favour_3": {
+      "name": "Tenos' Favour",
+      "description": "-1% Chest Trap Chance",
+      "descriptionFormat": null,
+      "color": "#55FFFF",
+      "icon": "the_vault:gui/modifiers/god_token_tenos",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_inline": {
+      "name": "Tenos's Favour",
+      "description": "Tenos Favoured",
+      "descriptionFormat": null,
+      "color": "#009dde",
+      "icon": "the_vault:gui/modifiers/god_token_tenos",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_rarity": {
+      "name": "Tenos' Favour",
+      "description": "+50% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#55FFFF",
+      "icon": "the_vault:gui/modifiers/god_token_tenos",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tenos_tear": {
+      "name": "Tenos' Tear",
+      "description": "+1% Tenos Affinity",
+      "descriptionFormat": null,
+      "color": "#009dde",
+      "icon": "the_vault:gui/modifiers/tenos_tear",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:thiccening": {
+      "name": "Thiccening",
+      "description": "Mobs become slightly bigger and have +50% increased HP",
+      "descriptionFormat": null,
+      "color": "#f6659b",
+      "icon": "the_vault:gui/modifiers/thiccening",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:time_bomb_spawn": {
+      "name": "Time Bomb",
+      "description": "Mobs will spawn in this vault at a random interval, up to a maximum of 20 mobs per chunk.",
+      "descriptionFormat": null,
+      "color": "#a996ca",
+      "icon": "the_vault:gui/modifiers/time_bomb",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tiny_mob_increase": {
+      "name": "Onslaught",
+      "description": "+1% Mob Spawns",
+      "descriptionFormat": null,
+      "color": "#FC7C5C",
+      "icon": "the_vault:gui/modifiers/mob_increase",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tiny_mob_speed": {
+      "name": "Rapid Mobs",
+      "description": "+0,02% Mob Speed",
+      "descriptionFormat": null,
+      "color": "#f66868",
+      "icon": "the_vault:gui/modifiers/rapid_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tired": {
+      "name": "Mining Fatigue",
+      "description": "+1 Mining Fatigue",
+      "descriptionFormat": null,
+      "color": "#E8E9E1",
+      "icon": "the_vault:gui/modifiers/tired",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:tired_t2": {
+      "name": "Mining Fatigue T2",
+      "description": "+3 Mining Fatigue",
+      "descriptionFormat": null,
+      "color": "#E8E9E1",
+      "icon": "the_vault:gui/modifiers/tired",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:trapped": {
+      "name": "Clumsy",
+      "description": "-50% Trap Disarm & Increases traps while below 0%",
+      "descriptionFormat": null,
+      "color": "#CB866D",
+      "icon": "the_vault:gui/modifiers/trapped",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:trapped_old": {
+      "name": "Trapped",
+      "description": "+5% Chest Trap Chance",
+      "descriptionFormat": null,
+      "color": "#D35B00",
+      "icon": "the_vault:gui/modifiers/trapped",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:treasure": {
+      "name": "Treasure",
+      "description": "+100% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#eaff00",
+      "icon": "the_vault:gui/modifiers/treasure",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:treasure_doors": {
+      "name": "Treasure Hunter",
+      "description": "Highlights Treasure Doors in this vault",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/treasure_doors",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:trial_chambers": {
+      "name": "Trial Chambers",
+      "description": "The Trial Chambers does not contain loot, you get no experience, and you take no durability damage!",
+      "descriptionFormat": null,
+      "color": "#bbf333",
+      "icon": "the_vault:gui/modifiers/chaotic",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:trinket_chance": {
+      "name": "Trinket Chance",
+      "description": "+10% Trinket Chance",
+      "descriptionFormat": null,
+      "color": "#38C9C0",
+      "icon": "the_vault:gui/modifiers/opulent",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:ultimate_regeneration": {
+      "name": "Ultimate Regeneration",
+      "description": "Gives +3 Regeneration and +500% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#f6659b",
+      "icon": "the_vault:gui/modifiers/ultimate_regeneration",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:unlucky": {
+      "name": "Unlucky",
+      "description": "-50% Item Rarity",
+      "descriptionFormat": null,
+      "color": "#b3ff20",
+      "icon": "the_vault:gui/modifiers/unlucky",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:velara_favour_1": {
+      "name": "Velara's Favour",
+      "description": "+1 Regeneration",
+      "descriptionFormat": null,
+      "color": "#55FF55",
+      "icon": "the_vault:gui/modifiers/god_token_velara",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:velara_favour_2": {
+      "name": "Velara's Favour",
+      "description": "Healing is more efficient! (+50% Healing Effectiveness)",
+      "descriptionFormat": null,
+      "color": "#55FF55",
+      "icon": "the_vault:gui/modifiers/god_token_velara",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:velara_favour_3": {
+      "name": "Velara's Favour",
+      "description": "+1% Max Health",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_velara",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:velara_inline": {
+      "name": "Velara's Favour",
+      "description": "Velara Favoured",
+      "descriptionFormat": null,
+      "color": "#04e113",
+      "icon": "the_vault:gui/modifiers/god_token_velara",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:velara_tear": {
+      "name": "Velara's Tear",
+      "description": "+1% Velara Affinity",
+      "descriptionFormat": null,
+      "color": "#54fc54",
+      "icon": "the_vault:gui/modifiers/velara_tear",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:vendoor_doors": {
+      "name": "Merchant Hunter",
+      "description": "Highlights Vendoors in this vault",
+      "descriptionFormat": null,
+      "color": "#ffba00",
+      "icon": "the_vault:gui/modifiers/vendoor_doors",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:void_pools": {
+      "name": "Void Pools",
+      "description": "This vault has pockets of voiding",
+      "descriptionFormat": null,
+      "color": "#E83F24",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:voiding": {
+      "name": "Voiding",
+      "description": "+10% increased chance mobs will void time on hit",
+      "descriptionFormat": null,
+      "color": "#5A5851",
+      "icon": "the_vault:gui/modifiers/hex_wither",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:volcanic": {
+      "name": "Volcanic",
+      "description": "This vault seem to be hot",
+      "descriptionFormat": null,
+      "color": "#E83F24",
+      "icon": "the_vault:gui/modifiers/volcanic",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:vulnerable": {
+      "name": "Vulnerable",
+      "description": "-10% Resistance",
+      "descriptionFormat": null,
+      "color": "#CA9A5B",
+      "icon": "the_vault:gui/modifiers/vulnerable",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:warrior": {
+      "name": "Warrior",
+      "description": "Turns your companion in to a warrior inside the vault, assisting the player in killing mobs",
+      "descriptionFormat": null,
+      "color": "#FF00FF",
+      "icon": "the_vault:gui/modifiers/warrior",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weak_mobs_damage": {
+      "name": "Weak Mobs",
+      "description": "-75% Mob Damage",
+      "descriptionFormat": null,
+      "color": "#da6d5a",
+      "icon": "the_vault:gui/modifiers/furious_mobs",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weakened": {
+      "name": "Weakened",
+      "description": "+1 Weakness",
+      "descriptionFormat": null,
+      "color": "#9F5300",
+      "icon": "the_vault:gui/modifiers/weakness",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weakened_cdr": {
+      "name": "Weakened CDR",
+      "description": "-20% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weakened_powers": {
+      "name": "Weakened Powers",
+      "description": "Lose 20% Cooldown Reduction and 25% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#bc2525",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weakened_t2": {
+      "name": "Weakened T2",
+      "description": "+3 Weakness",
+      "descriptionFormat": null,
+      "color": "#9F5300",
+      "icon": "the_vault:gui/modifiers/weakness",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:weakened_t3": {
+      "name": "Weakened T3",
+      "description": "+6 Weakness",
+      "descriptionFormat": null,
+      "color": "#9F5300",
+      "icon": "the_vault:gui/modifiers/weakness",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_cdr": {
+      "name": "Inert",
+      "description": "+50% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#6DACB5",
+      "icon": "the_vault:gui/modifiers/inert",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_favour": {
+      "name": "Wendarr's Favour",
+      "description": "+100% Mana Regeneration & +50% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_favour_1": {
+      "name": "Wendarr's Favour",
+      "description": "+1% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#FFAA00",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_favour_2": {
+      "name": "Wendarr's Favour",
+      "description": "+1% Max Mana",
+      "descriptionFormat": null,
+      "color": "#FFAA00",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_favour_3": {
+      "name": "Wendarr's Favour",
+      "description": "+0.5% Cooldown Reduction",
+      "descriptionFormat": null,
+      "color": "#FF5555",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_inline": {
+      "name": "Wendarr's Favour",
+      "description": "Wendarr Favoured",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_regen": {
+      "name": "Wendarr's Favour",
+      "description": "+100% Mana Regeneration",
+      "descriptionFormat": null,
+      "color": "#FFAA00",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_speed": {
+      "name": "Wendarr's Favour",
+      "description": "Players move faster in this vault! (+2 Speed)",
+      "descriptionFormat": null,
+      "color": "#d89e01",
+      "icon": "the_vault:gui/modifiers/god_token_wendarr",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wendarr_tear": {
+      "name": "Wendarr's Tear",
+      "description": "+1% Wendarr Affinity",
+      "descriptionFormat": null,
+      "color": "#dea700",
+      "icon": "the_vault:gui/modifiers/wendarr_tear",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wild": {
+      "name": "Wild",
+      "description": "Dwellers spawns anywhere inside the vault",
+      "descriptionFormat": null,
+      "color": "#E83F24",
+      "icon": "the_vault:gui/modifiers/crowded",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wither": {
+      "name": "Withering",
+      "description": "+10% increased chance mobs Wither on hit",
+      "descriptionFormat": null,
+      "color": "#5A5851",
+      "icon": "the_vault:gui/modifiers/hex_wither",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wooden_bonus": {
+      "name": "Bonus Wooden",
+      "description": "+1 Set of Wooden Chests",
+      "descriptionFormat": null,
+      "color": "#c7b281",
+      "icon": "the_vault:gui/modifiers/wooden_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wooden_cascade": {
+      "name": "Wooden",
+      "description": "+25% Wooden Chests",
+      "descriptionFormat": null,
+      "color": "#c7b281",
+      "icon": "the_vault:gui/modifiers/wooden",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wooden_mob_drops": {
+      "name": "Wooden Mob Drops",
+      "description": "Killing a mob has a 10% chance to drop Wooden Chest loot.",
+      "descriptionFormat": null,
+      "color": "#c7b281",
+      "icon": "the_vault:gui/modifiers/wooden_chests",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wounded": {
+      "name": "Wounded",
+      "description": "Removes 5 hearts",
+      "descriptionFormat": null,
+      "color": "#631F1F",
+      "icon": "the_vault:gui/modifiers/injured",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:wrecked": {
+      "name": "Wrecked",
+      "description": "+20% Poopsie Daisies, Whoopsie Walls and Fumbly Floors",
+      "descriptionFormat": null,
+      "color": "#EBFF8D",
+      "icon": "the_vault:gui/modifiers/curse_wrecked",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:xp_gain": {
+      "name": "Accustomed",
+      "description": "+20% Vault Experience",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/experienced",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    },
+    "the_vault:xp_reduction": {
+      "name": "Vault XP Reduction",
+      "description": "-25% Vault XP Gained",
+      "descriptionFormat": null,
+      "color": "#DB7C00",
+      "icon": "the_vault:gui/modifiers/impossible",
+      "definitionSource": "Vault Hunters Third Edition - Remastered 2.0.3 / config/the_vault/vault_modifiers.json"
+    }
+  }
+}

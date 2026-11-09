@@ -1,0 +1,266 @@
+{
+  "source": "the_vault-1.18.2-20.0.3-remastered.6872.jar / CompanionsConfig.reset, VaultModifiersConfig.reset",
+  "config": {
+    "maxLevel": 10,
+    "levels": [
+      {
+        "level": 1,
+        "tnl": 0
+      },
+      {
+        "level": 2,
+        "tnl": 10000
+      },
+      {
+        "level": 3,
+        "tnl": 25000
+      },
+      {
+        "level": 4,
+        "tnl": 50000
+      },
+      {
+        "level": 5,
+        "tnl": 125000
+      },
+      {
+        "level": 6,
+        "tnl": 250000
+      },
+      {
+        "level": 7,
+        "tnl": 500000
+      },
+      {
+        "level": 8,
+        "tnl": 1000000
+      },
+      {
+        "level": 9,
+        "tnl": 3000000
+      },
+      {
+        "level": 10,
+        "tnl": 6000000
+      }
+    ],
+    "temporalModifierDurations": [
+      1200,
+      1800,
+      2400,
+      3000,
+      3600,
+      4800,
+      6000,
+      7200,
+      9600,
+      12000
+    ]
+  },
+  "modifiers": {
+    "the_vault:omega_fortune": {
+      "name": "Omega Fortune",
+      "description": "10x Omega Room Chance"
+    },
+    "the_vault:gilded": {
+      "name": "Gilded",
+      "description": "Adds Gilded Chests"
+    },
+    "the_vault:living": {
+      "name": "Living",
+      "description": "Adds Living Chests"
+    },
+    "the_vault:ornate": {
+      "name": "Ornate",
+      "description": "Adds Ornate Chests"
+    },
+    "the_vault:coin_pile": {
+      "name": "Coins",
+      "description": "Adds Coin Piles to the vault"
+    },
+    "the_vault:treasure_hunting": {
+      "name": "Treasure Hunting",
+      "description": "+10% Artifact Chance"
+    },
+    "the_vault:frail": {
+      "name": "Frail",
+      "description": "+20% Durability Damage"
+    },
+    "the_vault:reinforced": {
+      "name": "Reinforced",
+      "description": "-20% Durability Damage"
+    },
+    "the_vault:phoenix": {
+      "name": "Phoenix",
+      "description": "All items you entered with will be restored on death"
+    },
+    "the_vault:afterlife": {
+      "name": "Afterlife",
+      "description": "All items you entered with will be restored on death; No artifact can be found"
+    },
+    "the_vault:beginners_grace": {
+      "name": "Beginners Grace",
+      "description": "All items you entered with will be restored on death; No experience on death"
+    },
+    "the_vault:difficult": {
+      "name": "Difficult",
+      "description": "+3 Vault Level"
+    },
+    "the_vault:easy": {
+      "name": "Easy",
+      "description": "-3 Vault Level"
+    },
+    "the_vault:crowded": {
+      "name": "Crowded",
+      "description": "+1 Mob Spawns"
+    },
+    "the_vault:personal_space": {
+      "name": "Personal Space",
+      "description": "-1 Mob Spawns"
+    },
+    "the_vault:raffle": {
+      "name": "Raffle",
+      "description": "Locks the vault"
+    },
+    "the_vault:locked": {
+      "name": "Locked",
+      "description": "Locks the vault"
+    },
+    "the_vault:extended": {
+      "name": "Extended",
+      "description": "+1 minute Vault Time"
+    },
+    "the_vault:rushed": {
+      "name": "Rushed",
+      "description": "-1 minute Vault Time"
+    },
+    "the_vault:rotten": {
+      "name": "Rotten",
+      "description": "Vault Powerups have no effect"
+    },
+    "the_vault:trapped": {
+      "name": "Trapped",
+      "description": "+10% Trap Chance"
+    },
+    "the_vault:looters_dream": {
+      "name": "Looter\\'s Dream",
+      "description": "No Trap Chance"
+    },
+    "the_vault:chunky_mobs": {
+      "name": "Chunky Mobs",
+      "description": "+20% Mob Health"
+    },
+    "the_vault:furious_mobs": {
+      "name": "Furious Mobs",
+      "description": "+20% Mob Damage"
+    },
+    "the_vault:speedy_mobs": {
+      "name": "Speedy Mobs",
+      "description": "+5% Mob Speed"
+    },
+    "the_vault:lucky": {
+      "name": "Lucky",
+      "description": "+1 Luck"
+    },
+    "the_vault:unlucky": {
+      "name": "Unlucky",
+      "description": "-1 Luck"
+    },
+    "the_vault:hunger": {
+      "name": "Hunger",
+      "description": "+1 Hunger"
+    },
+    "the_vault:tired": {
+      "name": "Tired",
+      "description": "+1 Mining Fatigue"
+    },
+    "the_vault:slowed": {
+      "name": "Slowed",
+      "description": "+1 Slowness"
+    },
+    "the_vault:weakened": {
+      "name": "Weakened",
+      "description": "+1 Weakness"
+    },
+    "the_vault:speedy": {
+      "name": "Speedy",
+      "description": "+1 Speed"
+    },
+    "the_vault:stronk": {
+      "name": "Stronk",
+      "description": "+1 Strength"
+    },
+    "the_vault:poisonous": {
+      "name": "Poisonous",
+      "description": "+10% increased chance mobs Poison on hit"
+    },
+    "the_vault:wither": {
+      "name": "Withering",
+      "description": "+10% increased chance mobs Wither on hit"
+    },
+    "the_vault:fatiguing": {
+      "name": "Fatiguing",
+      "description": "+10% increased chance mobs Fatigue on hit"
+    },
+    "the_vault:freezing": {
+      "name": "Freezing",
+      "description": "+10% increased chance mobs Slow on hit"
+    },
+    "the_vault:clumsy": {
+      "name": "Clumsy",
+      "description": "-10% Parry"
+    },
+    "the_vault:vulnerable": {
+      "name": "Vulnerable",
+      "description": "-10% Resistance"
+    },
+    "the_vault:inert": {
+      "name": "Inert",
+      "description": "-10% Cooldown Reduction"
+    },
+    "the_vault:plentiful": {
+      "name": "Plentiful",
+      "description": "Multiplies Vault Ore generation by 2"
+    },
+    "the_vault:prismatic": {
+      "name": "Prismatic",
+      "description": "+10% Catalyst Fragments"
+    },
+    "the_vault:soul_hunter": {
+      "name": "Soul Hunter",
+      "description": "+10% Soul Shards"
+    },
+    "the_vault:limited": {
+      "name": "Limited",
+      "description": "-2 Max HP"
+    },
+    "the_vault:draining": {
+      "name": "Draining",
+      "description": "-20% Mana Regeneration"
+    },
+    "the_vault:frenzy": {
+      "name": "Frenzy",
+      "description": "+300% Mob Damage, +10% Mob Speed, Mob Health reduced to 1"
+    },
+    "the_vault:item_quantity": {
+      "name": "Item Quantity",
+      "description": "+10% Item Quantity"
+    },
+    "the_vault:item_rarity": {
+      "name": "Item Rarity",
+      "description": "+10% Item Rarity"
+    },
+    "the_vault:jupiter_gravity": {
+      "name": "Jupiter Gravity",
+      "description": "No Jump"
+    },
+    "the_vault:crab_walk": {
+      "name": "Crab Walk",
+      "description": "The only way is sideways"
+    },
+    "the_vault:confused": {
+      "name": "Confused",
+      "description": "Left and Right swapped"
+    }
+  }
+}

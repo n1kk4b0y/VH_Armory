@@ -1,0 +1,500 @@
+{
+  "source": "the_vault-1.18.2-20.0.3-remastered.6872.jar / ModGearAttributes",
+  "attributes": {
+    "the_vault:armor": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Armor"
+    },
+    "the_vault:armor_percentile": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Armor"
+    },
+    "the_vault:armor_toughness": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Armor Toughness"
+    },
+    "the_vault:attack_damage": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Attack Damage"
+    },
+    "the_vault:attack_speed": {
+      "type": "double",
+      "reader": null,
+      "name": "Attack Speed"
+    },
+    "the_vault:attack_speed_percent": {
+      "type": "double",
+      "reader": "percentageReader",
+      "name": "Attack Speed"
+    },
+    "the_vault:reach": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Reach"
+    },
+    "the_vault:attack_range": {
+      "type": "double",
+      "reader": "addedDecimalReader",
+      "name": "Attack Range"
+    },
+    "the_vault:knockback_resistance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Knockback Resist"
+    },
+    "the_vault:health": {
+      "type": "float",
+      "reader": "addedRoundedDecimalReader",
+      "name": "Health"
+    },
+    "the_vault:health_percentile": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Health"
+    },
+    "the_vault:mana_regen": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Mana Regen"
+    },
+    "the_vault:mana_additive": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Mana"
+    },
+    "the_vault:mana_additive_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Mana"
+    },
+    "the_vault:healing_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Healing Efficiency"
+    },
+    "the_vault:durability": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Durability"
+    },
+    "the_vault:ability_power": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Ability Power"
+    },
+    "the_vault:ability_power_percentile": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Ability Power Percentile"
+    },
+    "the_vault:ability_power_percent": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Ability Power"
+    },
+    "the_vault:movement_speed": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Movement Speed"
+    },
+    "the_vault:cooldown_reduction": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction"
+    },
+    "the_vault:cooldown_reduction_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction Percentile"
+    },
+    "the_vault:ability_cooldown_skip": {
+      "type": "float",
+      "reader": null,
+      "name": "Ability Cooldown Skip Chance"
+    },
+    "the_vault:ability_cast_failure_chance": {
+      "type": "float",
+      "reader": null,
+      "name": "Ability Cast Failure"
+    },
+    "the_vault:leech": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Leech"
+    },
+    "the_vault:on_kill_heal": {
+      "type": "float",
+      "reader": "healingPairReader",
+      "name": "chance"
+    },
+    "the_vault:resistance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Resistance"
+    },
+    "the_vault:block": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Block Chance"
+    },
+    "the_vault:block_glacial_prison": {
+      "type": "float",
+      "reader": null,
+      "name": "Block Glacial Prison Chance"
+    },
+    "the_vault:block_heal": {
+      "type": "float",
+      "reader": "healingPairReader",
+      "name": "chance"
+    },
+    "the_vault:critical_hit_mitigation": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Crit Hit Resistance"
+    },
+    "the_vault:critical_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Critical Hit Chance"
+    },
+    "the_vault:durability_wear_reduction": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Durability Damage Reduction"
+    },
+    "the_vault:fatal_strike_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fatal Strike Chance"
+    },
+    "the_vault:fatal_strike_damage": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fatal Strike Damage"
+    },
+    "the_vault:lucky_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Lucky Hit Chance"
+    },
+    "the_vault:lucky_hit_chance_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Lucky Hit Chance Percent Of Base"
+    },
+    "the_vault:jester_lucky_hit_chance_percentile": {
+      "type": "float",
+      "reader": null,
+      "name": "Jester\\'s Luck"
+    },
+    "the_vault:thorns_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Thorns Chance"
+    },
+    "the_vault:thorns_damage": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Thorns Damage"
+    },
+    "the_vault:thorns_damage_flat": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Thorns Damage"
+    },
+    "the_vault:on_hit_chain": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Chaining Attack"
+    },
+    "the_vault:on_hit_aoe": {
+      "type": "int",
+      "reader": null,
+      "name": null
+    },
+    "the_vault:on_hit_stun": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Stun Attack Chance"
+    },
+    "the_vault:sweeping_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Sweeping Hit Chance"
+    },
+    "the_vault:sweeping_hit_damage": {
+      "type": "float",
+      "reader": null,
+      "name": null
+    },
+    "the_vault:shocking_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Shocking Hit Chance"
+    },
+    "the_vault:item_quantity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Item Quantity"
+    },
+    "the_vault:item_rarity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Item Rarity"
+    },
+    "the_vault:trap_disarming": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Trap Disarm Chance"
+    },
+    "the_vault:soul_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Soul Quantity"
+    },
+    "the_vault:soul_chance_percentile": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Soul Quantity Percentile"
+    },
+    "the_vault:area_of_effect": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Area of Effect"
+    },
+    "the_vault:effect_duration": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Effect Duration"
+    },
+    "the_vault:damage_increase": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Attack Damage"
+    },
+    "the_vault:damage_illagers": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Illager Damage"
+    },
+    "the_vault:damage_spiders": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Arthropods Damage"
+    },
+    "the_vault:damage_undead": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Undead Damage"
+    },
+    "the_vault:damage_nether": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Nether Damage"
+    },
+    "the_vault:damage_champion": {
+      "type": "float",
+      "reader": "increasedReader",
+      "name": "Champion Damage"
+    },
+    "the_vault:damage_dungeon": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Dungeon Damage"
+    },
+    "the_vault:damage_tank": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Tank Damage"
+    },
+    "the_vault:damage_horde": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Horde Damage"
+    },
+    "the_vault:damage_assassin": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Assassin Damage"
+    },
+    "the_vault:damage_dweller": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Dweller Damage"
+    },
+    "the_vault:damage_baby": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Toddler Damage"
+    },
+    "the_vault:resistance_greed_assassin": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Greed Assassin Resistance"
+    },
+    "the_vault:velara_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Velara Affinity"
+    },
+    "the_vault:tenos_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Tenos Affinity"
+    },
+    "the_vault:wendarr_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Wendarr Affinity"
+    },
+    "the_vault:idona_affinity": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Idona Affinity"
+    },
+    "the_vault:resistance_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Resistance Cap"
+    },
+    "the_vault:cooldown_reduction_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Cooldown Reduction Cap"
+    },
+    "the_vault:block_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Block Cap"
+    },
+    "the_vault:durability_wear_reduction_cap": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Durability Wear Reduction Cap"
+    },
+    "the_vault:tool_capacity": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:jewel_size": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Size"
+    },
+    "the_vault:mining_speed": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Mining Speed"
+    },
+    "the_vault:mining_speed_percent": {
+      "type": "float",
+      "reader": null,
+      "name": "Mining Speed Percentage"
+    },
+    "the_vault:copiously": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Copiously"
+    },
+    "the_vault:immortality": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Vanilla Immortality"
+    },
+    "the_vault:hammer_size": {
+      "type": "int",
+      "reader": "addedIntReader",
+      "name": "Hammer Size"
+    },
+    "the_vault:range": {
+      "type": "float",
+      "reader": "addedDecimalReader",
+      "name": "Pickup Range"
+    },
+    "the_vault:velocity": {
+      "type": "float",
+      "reader": "addedRoundedDecimalReader",
+      "name": "Pull Speed"
+    },
+    "the_vault:gear_color": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:prefixes": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:suffixes": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:greed_tier": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:crafting_potential": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:max_crafting_potential": {
+      "type": "int",
+      "reader": "none",
+      "name": null
+    },
+    "the_vault:relentless_strike": {
+      "type": "float",
+      "reader": null,
+      "name": "Relentless Strike"
+    },
+    "the_vault:third_attack": {
+      "type": "float",
+      "reader": null,
+      "name": "Third Attack"
+    },
+    "the_vault:castle_bastion": {
+      "type": "float",
+      "reader": null,
+      "name": "Castle Bastion"
+    },
+    "the_vault:hit_hearts": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Heart Frag Chance"
+    },
+    "the_vault:double_hit_chance": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Double Damage Chance"
+    },
+    "the_vault:phoenix": {
+      "type": "int",
+      "reader": null,
+      "name": null
+    },
+    "the_vault:warp_projectile_speed": {
+      "type": "float",
+      "reader": null,
+      "name": "Warp Projectile Speed"
+    },
+    "the_vault:fruit_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Fruit Efficiency"
+    },
+    "the_vault:vault_charm_effectiveness": {
+      "type": "float",
+      "reader": "percentageReader",
+      "name": "Vault Charm Efficiency"
+    }
+  }
+}

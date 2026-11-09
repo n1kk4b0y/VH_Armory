@@ -1,0 +1,146 @@
+{
+  "source": "Remastered 2.0.3 / config/the_vault/card/decks.json",
+  "configSha256": "f06b7a7b9deef45e6f8dc8f098f7ce11347c9d4756c65f3c9affe98341ab949b",
+  "values": {
+    "starter": {
+      "name": "Starter Deck",
+      "model": "the_vault:deck/starter_deck#inventory"
+    },
+    "large": {
+      "name": "Large Deck",
+      "model": "the_vault:deck/large_deck#inventory"
+    },
+    "double": {
+      "name": "Double Deck",
+      "model": "the_vault:deck/double_deck#inventory"
+    },
+    "merchant": {
+      "name": "Merchant's Deck",
+      "model": "the_vault:deck/merchant_deck#inventory"
+    },
+    "expanded": {
+      "name": "Expanded Deck",
+      "model": "the_vault:deck/expanded_deck#inventory"
+    },
+    "extended": {
+      "name": "Extended Deck",
+      "model": "the_vault:deck/expanded_deck#inventory"
+    },
+    "gdungeon": {
+      "name": "The Edge Deck",
+      "model": "the_vault:deck/edge_deck#inventory"
+    },
+    "gilded": {
+      "name": "The Gilded Deck",
+      "model": "the_vault:deck/edge_deck#inventory"
+    },
+    "ldungeon": {
+      "name": "The Shroom Deck",
+      "model": "the_vault:deck/mushroom_deck#inventory"
+    },
+    "living": {
+      "name": "The Living Deck",
+      "model": "the_vault:deck/mushroom_deck#inventory"
+    },
+    "anvil": {
+      "name": "The Anvil Deck",
+      "model": "the_vault:deck/anvil_deck#inventory"
+    },
+    "odungeon": {
+      "name": "The Anvil Deck",
+      "model": "the_vault:deck/anvil_deck#inventory"
+    },
+    "treasure": {
+      "name": "The Treasure Deck",
+      "model": "the_vault:deck/treasure_deck#inventory"
+    },
+    "black": {
+      "name": "The Black Deck",
+      "model": "the_vault:deck/black_deck#inventory"
+    },
+    "shadow": {
+      "name": "The Shadow Deck",
+      "model": "the_vault:deck/black_deck#inventory"
+    },
+    "lost": {
+      "name": "The Lost Deck",
+      "model": "the_vault:deck/lost_deck#inventory"
+    },
+    "relic": {
+      "name": "The Relic Deck",
+      "model": "the_vault:deck/lost_deck#inventory"
+    },
+    "champion": {
+      "name": "The Champion Deck",
+      "model": "the_vault:deck/champion_deck#inventory"
+    },
+    "runic": {
+      "name": "The Runic Deck",
+      "model": "the_vault:deck/runic_deck#inventory"
+    },
+    "bishop": {
+      "name": "The Bishop Deck",
+      "model": "the_vault:deck/bishop_deck#inventory"
+    },
+    "belt": {
+      "name": "The Belt Deck",
+      "model": "the_vault:deck/belt_deck#inventory"
+    },
+    "mystery": {
+      "name": "The Mystery Deck",
+      "model": "the_vault:deck/mystery_deck#inventory"
+    },
+    "idona": {
+      "name": "Idona's Deck",
+      "model": "the_vault:deck/idona_deck#inventory"
+    },
+    "velara": {
+      "name": "The Velara Deck",
+      "model": "the_vault:deck/velara_deck#inventory"
+    },
+    "wendarr": {
+      "name": "The Wendarr Deck",
+      "model": "the_vault:deck/wendarr_deck#inventory"
+    },
+    "tenos": {
+      "name": "The Tenos Deck",
+      "model": "the_vault:deck/tenos_deck#inventory"
+    },
+    "cake": {
+      "name": "The Cake Deck",
+      "model": "the_vault:deck/cake_deck#inventory"
+    },
+    "pillager": {
+      "name": "The Pillager Deck",
+      "model": "the_vault:deck/pillager_deck#inventory"
+    },
+    "arcane": {
+      "name": "The Arcane Deck",
+      "model": "the_vault:deck/arcane_deck#inventory"
+    },
+    "skull": {
+      "name": "The Skull Deck",
+      "model": "the_vault:deck/skull_deck#inventory"
+    },
+    "mutant": {
+      "name": "The Mutant Deck",
+      "model": "the_vault:deck/mutant_deck#inventory"
+    },
+    "puzzle": {
+      "name": "The Puzzle Deck",
+      "model": "the_vault:deck/puzzle_deck#inventory"
+    },
+    "cactus": {
+      "name": "The Cactus Deck",
+      "model": "the_vault:deck/cactus_deck#inventory"
+    },
+    "ornate": {
+      "name": "The Ornate Deck",
+      "model": "the_vault:deck/ornate_deck#inventory"
+    },
+    "villager": {
+      "name": "The Villager Deck",
+      "model": "the_vault:deck/villager_deck#inventory"
+    }
+  }
+}
