@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d0b">
+  <title>VH Armory</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/presskit.css">
+  <link rel="stylesheet" href="/companions.css">
+  <link rel="stylesheet" href="/decks.css">
+</head>
+<body data-view="home">
+  <header class="topbar">
+    <a class="brand" href="/">VH<span>ARMORY</span></a>
+    <nav class="topnav" aria-label="Navegação principal">
+      <a href="/" id="homeNav">Início</a>
+      <a href="/armory" id="armoryNav">Armory</a>
+      <a href="/ranking" id="rankingNav">Ranking</a>
+    </nav>
+    <div class="topbar-spacer"></div>
+    <div class="world-status" id="worldStatus">Carregando mundo...</div>
+    <button id="reload">Recarregar dados</button>
+  </header>
+
+  <main class="shell">
+    <aside class="players-panel">
+      <div class="panel-title">VAULT HUNTERS</div>
+      <input id="search" class="search" placeholder="Pesquisar jogador..." aria-label="Pesquisar jogador">
+      <div id="players"></div>
+    </aside>
+
+    <section class="content">
+      <div id="sourceNotice" class="source-notice" role="status" hidden></div>
+      <div id="homeView" hidden>
+        <div class="home-hero">
+          <picture class="presskit-art home-art" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="/assets/presskit/the_vault-portrait.png">
+            <img src="/assets/presskit/the_vault-landscape.png" alt="" fetchpriority="high" width="1920" height="1080">
+          </picture>
+          <div class="home-hero-copy">
+            <div class="eyebrow">VAULT HUNTERS · WORLD ARMORY</div>
+            <h1>Os destaques do mundo<span>.</span></h1>
+            <p>Os maiores Vault Levels do mundo. Escolha um hunter para explorar seu perfil.</p>
+            <a class="home-ranking-link" href="/ranking">Ver ranking completo <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="home-section-heading"><h2>TOP 3 HUNTERS</h2><span>Vault Level · XP como desempate</span></div>
+        <div id="homePodium" class="podium home-podium"></div>
+        <div class="home-explore">
+          <div class="home-explore-heading">
+            <div><div class="eyebrow">ARMORY</div><h2>Explore os jogadores</h2><p id="homeCount"></p></div>
+            <input id="homeSearch" class="search" type="search" placeholder="Pesquisar nome ou UUID..." aria-label="Pesquisar jogadores na página inicial">
+          </div>
+          <div id="homePlayers" class="home-players"></div>
+        </div>
+      </div>
+
+      <div id="rankingView" hidden>
+        <div class="ranking-hero">
+          <picture class="presskit-art ranking-art" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="/assets/presskit/vaulthunters-portrait.png">
+            <img src="/assets/presskit/vaulthunters-landscape.png" alt="" loading="lazy" width="1920" height="1080">
+          </picture>
+          <div class="ranking-hero-copy">
+            <div class="eyebrow">WORLD LEADERBOARD</div>
+            <h1 id="rankingTitle">Ranking de Vault Level</h1>
+            <p id="rankingDescription">Jogadores ordenados pelo maior Vault Level. O XP é usado como desempate.</p>
+          </div>
+          <div class="ranking-count" id="rankingCount">0 jogadores</div>
+        </div>
+        <nav class="ranking-switch" aria-label="Tipo de ranking"><a href="/ranking" data-ranking-type="level">Nível do jogador</a><a href="/ranking?type=vault-xp" data-ranking-type="vault-xp">XP em uma vault</a></nav>
+        <div id="rankingNote" class="ranking-note" hidden></div>
+        <div id="podium" class="podium"></div>
+        <div class="section-title">CLASSIFICAÇÃO COMPLETA</div>
+        <div id="rankingTable" class="ranking-table"></div>
+      </div>
+
+      <div id="empty" class="empty">
+        <div class="vault-mark">◇</div>
+        <h1>Vault Hunters Armory</h1>
+        <p id="emptyMessage">Carregando jogadores...</p>
+      </div>
+
+      <div id="profile" hidden>
+        <div class="hero">
+          <picture class="presskit-art profile-art" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="/assets/presskit/dweller-portrait.png">
+            <img src="/assets/presskit/dweller-landscape.png" alt="" loading="lazy" width="1920" height="1080">
+          </picture>
+          <div class="profile-identity">
+            <div class="eyebrow">PLAYER ARMORY</div>
+            <h1 id="playerName">Player</h1>
+            <div class="uuid" id="playerUuid"></div>
+          </div>
+          <div id="profileSkin" class="profile-skin-preview"></div>
+          <div class="level-card">
+            <span>VAULT LEVEL</span>
+            <strong id="level">—</strong>
+            <small id="xp">XP —</small>
+            <small id="xpRemaining"></small>
+            <div class="xp-mini-track" title="Progresso até o próximo Vault Level"><div id="xpMiniFill" class="xp-mini-fill"></div></div>
+          </div>
+        </div>
+
+        <div class="tabs-shell" id="tabsShell">
+          <button class="tab-scroll tab-scroll--previous" id="tabsPrevious" type="button" aria-label="Rolar abas para a esquerda" aria-controls="tabs" hidden disabled><span aria-hidden="true">‹</span></button>
+          <nav class="tabs" id="tabs" aria-label="Seções do perfil">
+          <button data-tab="overview" class="active">Overview</button>
+          <button data-tab="statistics">Statistics</button>
+          <button data-tab="vaults">Vaults</button>
+          <button data-tab="attributes">Attributes</button>
+          <button data-tab="gear">Gear</button>
+          <button data-tab="companions">Companions</button>
+          <button data-tab="abilities">Abilities</button>
+          <button data-tab="talents">Talents</button>
+          <button data-tab="expertise">Expertise</button>
+          <button data-tab="prestige">Prestige</button>
+          <button data-tab="research">Research</button>
+          <button data-tab="bounties">Bounties</button>
+          <button data-tab="quests">Quests</button>
+          <button data-tab="discoveries">Discoveries</button>
+          </nav>
+          <button class="tab-scroll tab-scroll--next" id="tabsNext" type="button" aria-label="Rolar abas para a direita" aria-controls="tabs" hidden disabled><span aria-hidden="true">›</span></button>
+        </div>
+
+        <div id="tabContent"></div>
+      </div>
+    </section>
+  </main>
+  <script src="/skins.js"></script>
+  <script src="/vendor/vh3d.js"></script>
+  <script src="/viewer.js"></script>
+  <script src="/companions.js"></script>
+  <script src="/assets/vault/catalog.js"></script>
+  <script src="/icons.js"></script>
+  <script src="/decks.js"></script>
+  <script src="/progression.js"></script>
+  <script src="/theme.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
