@@ -1,0 +1,2969 @@
+{
+  "sourceJar": "the_vault-1.18.2-20.0.3-remastered.6872.jar",
+  "sourceSha256": "fc6adfeb76071d61e633027334fc95e8efb7faf8a4cb57d646f8176b4f75390b",
+  "counts": {
+    "abilities": 150,
+    "skills": 113,
+    "research": 94,
+    "models": 5040,
+    "items": 686,
+    "tools": 31,
+    "ui": 8,
+    "prestige": 111,
+    "quests": 109,
+    "bounties": 7
+  },
+  "unrenderedModels": [
+    {
+      "model": "advanced_vending_machine",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/advanced_vending_machine_all.json' in the archive\""
+    },
+    {
+      "model": "aggressive_cow_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "aggressive_goat_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_pillar_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_pillar_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_pillar_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_block_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_bricks_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_bricks_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_bricks_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_button",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/button_inventory.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_button_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/button_inventory.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_button_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/button_inventory.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_button_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/button_inventory.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_small_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_small_bricks_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_small_bricks_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_small_bricks_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_trapdoor",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_trapdoor_exposed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_trapdoor_oxidized",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "ancient_copper_trapdoor_weathered",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "animatrix_block",
+      "reason": "'missing'"
+    },
+    {
+      "model": "artisan_scroll",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/artisan_scroll.png' in the archive\""
+    },
+    {
+      "model": "ashen_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ashen_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ashen_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ashen_layer",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "ashen_magma",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ashen_rock_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ashen_rock_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ashen_rock_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "basic_arbalist_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "basic_bruiser_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "black_chromatic_steel_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_alexandrite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_alexandrite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_alexandrite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_alexandrite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_ashium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_ashium_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_ashium_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_ashium_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_benitoite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_benitoite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_benitoite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_benitoite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_black_opal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_black_opal_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_black_opal_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_black_opal_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_bomignite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_bomignite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_bomignite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_bomignite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_echo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_echo_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_echo_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_echo_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_gorginite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_gorginite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_gorginite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_gorginite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_iskallium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_iskallium_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_iskallium_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_iskallium_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_larimar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_larimar_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_larimar_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_larimar_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_painite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_painite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_painite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_painite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_petzanite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_petzanite_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_petzanite_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_petzanite_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_pog",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_pog_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_pog_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_pog_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_puffium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_puffium_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_puffium_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_puffium_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_sparkletine",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_sparkletine_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_sparkletine_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_sparkletine_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_tubium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_tubium_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_tubium_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_tubium_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_upaline",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_upaline_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_upaline_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_upaline_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "block_gem_xenium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "block_gem_xenium_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "block_gem_xenium_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "block_gem_xenium_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "blood_silverfish_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "blood_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "blood_splatter",
+      "reason": "\"There is no item named 'assets/the_vault/textures/block/blood_splatter.png' in the archive\""
+    },
+    {
+      "model": "blood_splatter_7",
+      "reason": "\"There is no item named 'assets/the_vault/textures/block/blood_splatter_7.png' in the archive\""
+    },
+    {
+      "model": "blood_tank_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "blue_puzzle_concrete",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "boss_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "bumbo_polished_vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "burnt_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "burnt_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "burnt_planks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "burnt_planks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "burnt_wood",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "butcher_arbalist_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "butcher_bruiser_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "card/icon/grenade_toxic",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/card/icon/grenade_toxic.png' in the archive\""
+    },
+    {
+      "model": "card/template_card",
+      "reason": "'front'"
+    },
+    {
+      "model": "cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "chiseled_vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "choice_flask/execute",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/choice_flask/execute.png' in the archive\""
+    },
+    {
+      "model": "choice_flask/summon_eternal",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/choice_flask/summon_eternal.png' in the archive\""
+    },
+    {
+      "model": "chromatic_iron_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "chromatic_iron_ore",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "chromatic_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "chromatic_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "chromatic_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "chromatic_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "chromatic_steel_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "chunk_netherite",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/chunk_netherite.png' in the archive\""
+    },
+    {
+      "model": "companion_terrarium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube.json' in the archive\""
+    },
+    {
+      "model": "compressed_soot_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "crab_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "craftenstein_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "creeper_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "crystal_arbalist_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "crystal_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "crystal_bruiser_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "crystal_budding",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "cube_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "custom_entity_spawner",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "dark_ashen_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "dark_ashen_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "dark_ashen_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "deathcap_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_horror_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_silverfish_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_witch_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "deep_dark_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "driftwood_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "driftwood_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "driftwood_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "driftwood_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "driftwood_wood",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "drowned_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dry_vault_ash",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "dungeon_black_widow_spider_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_piglin_brute_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_pillager_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_spider_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_vindicator_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "dungeon_witch_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_drowned_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_enderman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_husk_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_spawner",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "elite_spider_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_stray_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_witch_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_wither_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "elite_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "enderman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "etching/assassin",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/assassin.png' in the archive\""
+    },
+    {
+      "model": "etching/blood",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/blood.png' in the archive\""
+    },
+    {
+      "model": "etching/carapace",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/carapace.png' in the archive\""
+    },
+    {
+      "model": "etching/divine",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/divine.png' in the archive\""
+    },
+    {
+      "model": "etching/dragon",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/dragon.png' in the archive\""
+    },
+    {
+      "model": "etching/dream",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/dream.png' in the archive\""
+    },
+    {
+      "model": "etching/dryad",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/dryad.png' in the archive\""
+    },
+    {
+      "model": "etching/golem",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/golem.png' in the archive\""
+    },
+    {
+      "model": "etching/ninja",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/ninja.png' in the archive\""
+    },
+    {
+      "model": "etching/phoenix",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/phoenix.png' in the archive\""
+    },
+    {
+      "model": "etching/porcupine",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/porcupine.png' in the archive\""
+    },
+    {
+      "model": "etching/rift",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/rift.png' in the archive\""
+    },
+    {
+      "model": "etching/treasure",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/treasure.png' in the archive\""
+    },
+    {
+      "model": "etching/vampire",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/vampire.png' in the archive\""
+    },
+    {
+      "model": "etching/zod",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/etching/zod.png' in the archive\""
+    },
+    {
+      "model": "flawed_ruby",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/flawed_ruby.png' in the archive\""
+    },
+    {
+      "model": "gate_lock",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gear/focus/cauldron",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/bell",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/bell_blocking",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/present",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/present_blocking",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/turtle",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/shield/turtle_blocking",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear/sword/create_sword",
+      "reason": "'missing'"
+    },
+    {
+      "model": "gear_charm",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/gear_charm.png' in the archive\""
+    },
+    {
+      "model": "gear_charm_tier_3",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/gear_charm_tier_3.png' in the archive\""
+    },
+    {
+      "model": "gem_glass_alexandrite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_alexandrite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_ashium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_ashium_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_benitoite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_benitoite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_black_opal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_black_opal_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_bomignite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_bomignite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_echo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_echo_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_gorginite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_gorginite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_iskallium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_iskallium_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_larimar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_larimar_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_painite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_painite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_petzanite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_petzanite_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_pog",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_pog_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_sparkletine",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_sparkletine_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_tubium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_tubium_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_upaline",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_upaline_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_xenium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gem_glass_xenium_tinted",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gift_mega_statue",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/gift_mega_statue.json' in the archive\""
+    },
+    {
+      "model": "gift_normal_statue",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/gift_normal_statue.json' in the archive\""
+    },
+    {
+      "model": "gilded_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_bumbo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "gilded_block_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_cracked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_cracked_dull",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_dull",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_dull_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_dull_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_dull_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "gilded_bricks_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "gilded_cobble",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "gilded_cobble_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "gilded_cobble_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "gilded_cobble_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "global_trader",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/global_trader.json' in the archive\""
+    },
+    {
+      "model": "god_altar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "god_blessing",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/god_blessing_velara.json' in the archive\""
+    },
+    {
+      "model": "god_token",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/god_token_velara.json' in the archive\""
+    },
+    {
+      "model": "golden_tooth",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "green_puzzle_concrete",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "grimwick_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "grinch_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "herald_trophy",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "husk_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "idona_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "idona_brick_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "idona_dark_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "idona_gem_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "idona_light_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "jack_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "jack_o_web_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "jack_poison_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "lava_still_decoration",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "levishroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_cobble",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_cobble_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_cobble_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_cobble_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_polished",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_polished_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_polished_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_polished_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_stacked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_stacked_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_stacked_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "living_rock_block_stacked_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "living_rock_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "living_rock_bricks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "living_rock_bricks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "living_rock_bricks_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "living_rock_planter",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "magic_silk_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "magnet_core_omega",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/magnet_core_omega.png' in the archive\""
+    },
+    {
+      "model": "magnet_core_strong",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/magnet_core_strong.png' in the archive\""
+    },
+    {
+      "model": "magnet_core_weak",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/magnet_core_weak.png' in the archive\""
+    },
+    {
+      "model": "magnet_modification_table",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "maze_block_blue",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "maze_block_red",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "model_discovery",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/model_discovery.png' in the archive\""
+    },
+    {
+      "model": "mossy_bone_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_cobble",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_cobble_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_cobble_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_cobble_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_polished",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_polished_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_polished_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_polished_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_stacked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_stacked_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_stacked_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_block_stacked_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_bricks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_bricks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "mossy_living_rock_bricks_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "mummy_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "obelisk_inscription",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/obelisk_inscription.png' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/alexandrite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/ashium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/benitoite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/black_opal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/bomignite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/echo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/gorginite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/iskallium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/larimar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/painite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/petzanite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/puffium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/sparkletine",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/tubium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/upaline",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/wutodie",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/vault_stone/xenium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/alexandrite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/ashium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/benitoite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/black_opal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/bomignite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/echo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/gorginite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/iskallium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/larimar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/painite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/petzanite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/puffium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/sparkletine",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/tubium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/upaline",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/wutodie",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore/white/xenium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_alexandrite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_ashium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_benitoite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_black_opal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_bomignite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_echo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_gorginite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_iskallium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_larimar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_painite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_petzanite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_puffium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_sparkletine",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_tubium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_upaline",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_vault_rock",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_wutodie",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ore_xenium",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_tiled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_tiled_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_tiled_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_tiled_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_velvet_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "ornate_block_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_chipped",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_cracked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_netherite",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_rusty",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_velvet",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_velvet_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_velvet_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_velvet_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "ornate_bricks_wall",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/wall_inventory.json' in the archive\""
+    },
+    {
+      "model": "overgrown_tank_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "overgrown_wooden_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "overgrown_wooden_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "overgrown_wooden_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "overgrown_wooden_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "overgrown_woodman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "packed_vault_meat_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "painite_star",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/painite_star.png' in the archive\""
+    },
+    {
+      "model": "pandora_box",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "paxel_charm",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/paxel_charm.png' in the archive\""
+    },
+    {
+      "model": "piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "pink_puzzle_concrete",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "pirate_arbalist_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "pirate_bruiser_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "pirate_guardian_tank_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "placeholder",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_coin_stacks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_coin_stacks_guaranteed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_coin_stacks_waterlogged",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_dungeon_discoverable",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_dungeon_door",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_gate",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_gilded_chest",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_gilded_chest_guaranteed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_gilded_chest_waterlogged",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_idona_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_living_chest",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_living_chest_guaranteed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_living_chest_waterlogged",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_objective",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_ore",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_ornate_chest",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_ornate_chest_guaranteed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_ornate_chest_waterlogged",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_pylon",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_spawn_position",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_tenos_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_treasure_door",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_velara_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_vendor_pedestal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_wendarr_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_wooden_chest",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_wooden_chest_guaranteed",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "placeholder_wooden_chest_waterlogged",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_bottom_top.json' in the archive\""
+    },
+    {
+      "model": "plastic_creeper_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_tank_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_villager_tank_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "plastic_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "player_statue",
+      "reason": "\"There is no item named 'assets/minecraft/textures/block/gray_concrete_powder.png' in the archive\""
+    },
+    {
+      "model": "polished_royale_chiseled_vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "polished_royale_vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "polished_royale_vault_stone_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "polished_royale_vault_stone_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "polished_vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "polished_vault_stone_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "polished_vault_stone_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "puzzle_arbalist_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "puzzle_bruiser_guardian_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "raw_chromatic_iron_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "repair_core_t2",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/repair_core_t2.png' in the archive\""
+    },
+    {
+      "model": "repair_core_t3",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/repair_core_t3.png' in the archive\""
+    },
+    {
+      "model": "rotten_meat_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "royale_stone_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "royale_stone_bricks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "royale_stone_bricks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "royale_stone_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "sandy_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_block_bumbo",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_block_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_block_polished",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_bricks_cracked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_small_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "sandy_small_bricks_cracked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "santa_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "shard_benevolent",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_shard_benevolent.png' in the archive\""
+    },
+    {
+      "model": "shard_malevolence",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_shard_malevolence.png' in the archive\""
+    },
+    {
+      "model": "shard_omniscient",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_shard_omniscient.png' in the archive\""
+    },
+    {
+      "model": "shard_timekeeper",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_shard_timekeeper.png' in the archive\""
+    },
+    {
+      "model": "shiver_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "sigil_block",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/sigil/1.json' in the archive\""
+    },
+    {
+      "model": "skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "smolcap_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "smooth_ashen_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "smooth_ashen_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "smooth_ashen_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "smooth_ashen_layer",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "smooth_dark_ashen_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "smooth_dark_ashen_block_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "smooth_dark_ashen_block_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "smooth_dark_ashen_layer",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "spirit_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "statue_cupcake",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_cupcake.png' in the archive\""
+    },
+    {
+      "model": "statue_dragon",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/statue_dragon.json' in the archive\""
+    },
+    {
+      "model": "statue_element",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_element.png' in the archive\""
+    },
+    {
+      "model": "statue_miner",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_miner.png' in the archive\""
+    },
+    {
+      "model": "statue_richity",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_richity.png' in the archive\""
+    },
+    {
+      "model": "statue_twitch",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_twitch.png' in the archive\""
+    },
+    {
+      "model": "statue_warrior",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/statue_warrior.png' in the archive\""
+    },
+    {
+      "model": "stray_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "stripped_burnt_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_burnt_wood",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_chromatic_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_driftwood_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_driftwood_wood",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_overgrown_wooden_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "stripped_wooden_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "swamp_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_mummy_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_overgrown_woodman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t0_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_creeper_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_drowned_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_enderman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_husk_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_mummy_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_overgrown_woodman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_plastic_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_plastic_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_plastic_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_stray_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_wither_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t1_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_creeper_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_drowned_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_enderman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_husk_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_mummy_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_overgrown_woodman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_plastic_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_plastic_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_plastic_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_stray_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_wither_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t2_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_creeper_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_drowned_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_enderman_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_husk_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_piglin_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_plastic_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_plastic_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_plastic_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_stray_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_wither_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t3_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_plastic_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_plastic_slime_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_plastic_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t4_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_blood_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_blood_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_cave_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_miner_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_mushroom_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_overgrown_zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_plastic_horde_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_skeleton_pirate_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "t5_winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "task_builder",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_bookshelf",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "tenos_bookshelf_empty",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "tenos_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_brick_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_dark_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_gem_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_light_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "tenos_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "tenos_stripped_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "tenos_vertical_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "topaz_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "treasure_door",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/door_iskallium.json' in the archive\""
+    },
+    {
+      "model": "treasure_sand",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_ash",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_bars",
+      "reason": "\"There is no item named 'assets/minecraft/textures/block/iron_bars.png' in the archive\""
+    },
+    {
+      "model": "vault_bedrock",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_blue_gummy_soldier_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_cobblestone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_coffee",
+      "reason": "\"There is no item named 'assets/minecraft/textures/item/honey_bottle.png' in the archive\""
+    },
+    {
+      "model": "vault_crystal_epic",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_epic.png' in the archive\""
+    },
+    {
+      "model": "vault_crystal_normal",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_normal.png' in the archive\""
+    },
+    {
+      "model": "vault_crystal_omega",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_omega.png' in the archive\""
+    },
+    {
+      "model": "vault_crystal_rare",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_crystal_rare.png' in the archive\""
+    },
+    {
+      "model": "vault_diamond_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_dood_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_0_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_1_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_2_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_3_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_4_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_5_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_6_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_7_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_8_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_9_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_fighter_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_forge",
+      "reason": "\"There is no item named 'assets/minecraft/textures/block/lava_flow.png' in the archive\""
+    },
+    {
+      "model": "vault_gear",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_gear.png' in the archive\""
+    },
+    {
+      "model": "vault_glass",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_green_gummy_soldier_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_horse_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_meat_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_pedestal",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_plating_t2",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_plating_t2.png' in the archive\""
+    },
+    {
+      "model": "vault_plating_t3",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_plating_t3.png' in the archive\""
+    },
+    {
+      "model": "vault_portal",
+      "reason": "\"There is no item named 'assets/the_vault/textures/block/vault_portal.png' in the archive\""
+    },
+    {
+      "model": "vault_portal_legacy",
+      "reason": "\"There is no item named 'assets/the_vault/textures/block/vault_portal_common.png' in the archive\""
+    },
+    {
+      "model": "vault_recycler",
+      "reason": "\"There is no item named 'assets/minecraft/textures/block/lava_flow.png' in the archive\""
+    },
+    {
+      "model": "vault_red_gummy_soldier_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_rock_royale",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_rock_royale.png' in the archive\""
+    },
+    {
+      "model": "vault_sand",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vault_sand.png' in the archive\""
+    },
+    {
+      "model": "vault_spider_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_stone",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_brick_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_brick_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_bricks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_bricks_cracked",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_pillar",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "vault_stone_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "vault_wraith_white_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_wraith_yellow_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "vault_yellow_gummy_soldier_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "velara_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_brick_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_bush",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_dark_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_gem_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_leaves",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_light_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "velara_mossy_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_mossy_blooming_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "velara_mossy_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "velara_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velara_planks_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "velara_planks_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "velara_stripped_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "velara_vertical_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velvet_bed",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_bed.json' in the archive\""
+    },
+    {
+      "model": "velvet_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velvet_block_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velvet_block_strips",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "velvet_carpet",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/thin_block.json' in the archive\""
+    },
+    {
+      "model": "vending_machine",
+      "reason": "\"There is no item named 'assets/the_vault/models/block/vending_machine_all.json' in the archive\""
+    },
+    {
+      "model": "vial_of_sand",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/vial_of_sand.png' in the archive\""
+    },
+    {
+      "model": "void_orb",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/void_orb.png' in the archive\""
+    },
+    {
+      "model": "wendarr_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_brick_chiseled",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_dark_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_gem_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_jewel_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_jewel_glass",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wendarr_light_smooth_brick",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wild_spawner",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wild_west_hand_cannon",
+      "reason": "\"There is no item named 'assets/minecraft/textures/wild_west_hand_cannon.png' in the archive\""
+    },
+    {
+      "model": "winter_wolf_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "winterwalker_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "wither_skeleton_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "wooden_log",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_column.json' in the archive\""
+    },
+    {
+      "model": "wooden_planks",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "wooden_slab",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/slab.json' in the archive\""
+    },
+    {
+      "model": "wooden_stairs",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/stairs.json' in the archive\""
+    },
+    {
+      "model": "wutax_crystal",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/wutax_crystal.png' in the archive\""
+    },
+    {
+      "model": "wutax_shard",
+      "reason": "\"There is no item named 'assets/the_vault/textures/item/wutax_shard.png' in the archive\""
+    },
+    {
+      "model": "wutodic_silver_block",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "yellow_puzzle_concrete",
+      "reason": "\"There is no item named 'assets/minecraft/models/block/cube_all.json' in the archive\""
+    },
+    {
+      "model": "yeti_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    },
+    {
+      "model": "zombie_egg",
+      "reason": "\"There is no item named 'assets/minecraft/models/item/template_spawn_egg.json' in the archive\""
+    }
+  ],
+  "p2Catalog": {
+    "file": "data/p2-catalog.json",
+    "sourceSha256": "fc6adfeb76071d61e633027334fc95e8efb7faf8a4cb57d646f8176b4f75390b",
+    "quests": 17,
+    "emblems": 25,
+    "trails": 6
+  }
+}

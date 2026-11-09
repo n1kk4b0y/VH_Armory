@@ -1,0 +1,293 @@
+{
+  "source": "the_vault-1.18.2-20.0.3-remastered.6872.jar",
+  "sha256": "fc6adfeb76071d61e633027334fc95e8efb7faf8a4cb57d646f8176b4f75390b",
+  "registry": "PetModelType / PetHelper.PetVariant",
+  "variants": {
+    "venus": {
+      "name": "Venus",
+      "model": "/assets/companions/geo/husky.geo.json",
+      "texture": "/assets/companions/textures/entity/husky.png"
+    },
+    "skeleton_husky": {
+      "name": "Skeleton Husky",
+      "model": "/assets/companions/geo/husky.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/skeleton_husky.png"
+    },
+    "unicorn": {
+      "name": "Unicorn",
+      "model": "/assets/companions/geo/unicorn.geo.json",
+      "texture": "/assets/companions/textures/entity/unicorn.png"
+    },
+    "dino": {
+      "name": "Dino",
+      "model": "/assets/companions/geo/dino.geo.json",
+      "texture": "/assets/companions/textures/entity/skallibomba.png"
+    },
+    "reindeer": {
+      "name": "Reindeer",
+      "model": "/assets/companions/geo/reindeer.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/reindeer.png"
+    },
+    "camel": {
+      "name": "Camel",
+      "model": "/assets/companions/geo/companion/camel.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/camel.png"
+    },
+    "peacock": {
+      "name": "Peacock",
+      "model": "/assets/companions/geo/peacock.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/peacock.png"
+    },
+    "elephant": {
+      "name": "Elephant",
+      "model": "/assets/companions/geo/elephant.geo.json",
+      "texture": "/assets/companions/textures/entity/elephant.png"
+    },
+    "muddy_elephant": {
+      "name": "Muddy Elephant",
+      "model": "/assets/companions/geo/companion/muddy_elephant.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/muddy_elephant.png"
+    },
+    "moose": {
+      "name": "Moose",
+      "model": "/assets/companions/geo/moose.geo.json",
+      "texture": "/assets/companions/textures/entity/moose.png"
+    },
+    "pug": {
+      "name": "Wrinkles",
+      "model": "/assets/companions/geo/pug.geo.json",
+      "texture": "/assets/companions/textures/entity/pug.png"
+    },
+    "jade": {
+      "name": "Jade",
+      "model": "/assets/companions/geo/companion/jade.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/jade.png"
+    },
+    "lion": {
+      "name": "Lion",
+      "model": "/assets/companions/geo/lion.geo.json",
+      "texture": "/assets/companions/textures/entity/lion.png"
+    },
+    "raccoon": {
+      "name": "Raccoon",
+      "model": "/assets/companions/geo/raccoon.geo.json",
+      "texture": "/assets/companions/textures/entity/raccoon.png"
+    },
+    "tinyracoon": {
+      "name": "Tiny Raccoon",
+      "model": "/assets/companions/geo/tinyracoon.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/tinyracoon.png"
+    },
+    "shiba": {
+      "name": "Shiba",
+      "model": "/assets/companions/geo/shiba.geo.json",
+      "texture": "/assets/companions/textures/entity/shiba.png"
+    },
+    "baby_creeper": {
+      "name": "Baby Creeper",
+      "model": "/assets/companions/geo/baby_creeper.geo.json",
+      "texture": "/assets/companions/textures/entity/baby_creeper.png"
+    },
+    "baby_creeper_gold": {
+      "name": "Gold Baby Creeper",
+      "model": "/assets/companions/geo/baby_creeper.geo.json",
+      "texture": "/assets/companions/textures/entity/gold_baby_creeper.png"
+    },
+    "baby_creeper_pog": {
+      "name": "POG Baby Creeper",
+      "model": "/assets/companions/geo/baby_creeper_pog.geo.json",
+      "texture": "/assets/companions/textures/entity/pog_baby_creeper.png"
+    },
+    "taffy": {
+      "name": "Taffy",
+      "model": "/assets/companions/geo/companion/taffy.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/taffy.png"
+    },
+    "black_cat": {
+      "name": "Black Cat",
+      "model": "/assets/companions/geo/black_cat.geo.json",
+      "texture": "/assets/companions/textures/entity/black_cat.png"
+    },
+    "white_cat": {
+      "name": "White Cat",
+      "model": "/assets/companions/geo/white_cat.geo.json",
+      "texture": "/assets/companions/textures/entity/white_cat.png"
+    },
+    "cinder": {
+      "name": "Cinder Cat",
+      "model": "/assets/companions/geo/companion/cinder.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/cinder.png"
+    },
+    "panda": {
+      "name": "Panda",
+      "model": "/assets/companions/geo/panda.geo.json",
+      "texture": "/assets/companions/textures/entity/panda.png"
+    },
+    "redpanda": {
+      "name": "Red Panda",
+      "model": "/assets/companions/geo/redpanda.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/redpanda.png"
+    },
+    "polar_bear": {
+      "name": "Polar Bear",
+      "model": "/assets/companions/geo/companion/polar_bear.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/polar_bear.png"
+    },
+    "rat": {
+      "name": "Rat",
+      "model": "/assets/companions/geo/rat.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/rat.png"
+    },
+    "grizzly_bear": {
+      "name": "Grizzly Bear",
+      "model": "/assets/companions/geo/grizzly_bear.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/grizzly_bear.png"
+    },
+    "papillon": {
+      "name": "Papillon",
+      "model": "/assets/companions/geo/papillon.geo.json",
+      "texture": "/assets/companions/textures/entity/papillon.png"
+    },
+    "penguin": {
+      "name": "Penguin",
+      "model": "/assets/companions/geo/penguin.geo.json",
+      "texture": "/assets/companions/textures/entity/penguin.png"
+    },
+    "dylan_penguin": {
+      "name": "Dylan's Penguin",
+      "model": "/assets/companions/geo/dylan_penguin.geo.json",
+      "texture": "/assets/companions/textures/entity/dylan_penguin.png"
+    },
+    "dylan": {
+      "name": "Dylan",
+      "model": "/assets/companions/geo/dylan.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/dylan.png"
+    },
+    "dylan_pink": {
+      "name": "Pink Dylan",
+      "model": "/assets/companions/geo/dylan.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/dylan_pink.png"
+    },
+    "dylan_gold": {
+      "name": "Gold Dylan",
+      "model": "/assets/companions/geo/dylan.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/dylan_gold.png"
+    },
+    "carrot": {
+      "name": "Carrot",
+      "model": "/assets/companions/geo/carrot.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/carrot.png"
+    },
+    "bumbo_cactoni": {
+      "name": "Bumbo Cactoni",
+      "model": "/assets/companions/geo/bumbo_cactoni.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/bumbo_cactoni.png"
+    },
+    "golden_bumbo_cactoni": {
+      "name": "Golden Bumbo Cactoni",
+      "model": "/assets/companions/geo/bumbo_cactoni.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/bumbo_cactoni_golden.png"
+    },
+    "bumbo_pumpkini": {
+      "name": "Bumbo Pumpkini",
+      "model": "/assets/companions/geo/bumbo_pumpkini.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/bumbo_pumpkini.png"
+    },
+    "santa_dylan": {
+      "name": "Santa Dylan",
+      "model": "/assets/companions/geo/companion/dylan_santa.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/dylan_santa.png"
+    },
+    "gingerbread_man": {
+      "name": "Gingerbread Man",
+      "model": "/assets/companions/geo/companion/gingerbread_man.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/gingerbread_man.png"
+    },
+    "bumbo_frostoni": {
+      "name": "Bumbo Frostoni",
+      "model": "/assets/companions/geo/companion/bumbo_frostoni.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/bumbo_frostoni.png"
+    },
+    "blueberry_turtle": {
+      "name": "Blueberry Turtle",
+      "model": "/assets/companions/geo/companion/blueberry_turtle.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/blueberry_turtle.png"
+    },
+    "teddy": {
+      "name": "Teddy Bear",
+      "model": "/assets/companions/geo/companion/teddy.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/teddy.png"
+    },
+    "tommy": {
+      "name": "Tommy",
+      "model": "/assets/companions/geo/villager.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/tommy.png"
+    },
+    "greg": {
+      "name": "Greg",
+      "model": "/assets/companions/geo/greg.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/greg.png"
+    },
+    "mini_butcher": {
+      "name": "Mini Butcher",
+      "model": "/assets/companions/geo/companion/mini_butcher.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/mini_butcher.png"
+    },
+    "mini_dweller": {
+      "name": "Mini Dweller",
+      "model": "/assets/companions/geo/companion/mini_dweller.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/mini_dweller.png"
+    },
+    "mini_elite_witherskelly": {
+      "name": "Mini Elite Witherskeleton",
+      "model": "/assets/companions/geo/companion/mini_elite_witherskelly.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/mini_elite_witherskelly.png"
+    },
+    "mini_goblin": {
+      "name": "Mini Goblin",
+      "model": "/assets/companions/geo/companion/mini_goblin.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/mini_goblin.png"
+    },
+    "goat": {
+      "name": "Goat",
+      "model": "/assets/companions/geo/companion/goat.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/goat.png"
+    },
+    "white_seal": {
+      "name": "White Seal",
+      "model": "/assets/companions/geo/seal.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/white_seal.png"
+    },
+    "spotted_seal": {
+      "name": "Spotted Seal",
+      "model": "/assets/companions/geo/seal.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/spotted_seal.png"
+    },
+    "pig": {
+      "name": "Pig",
+      "model": "/assets/companions/geo/pig.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/pig.png"
+    },
+    "bobby": {
+      "name": "Bobby",
+      "model": "/assets/companions/geo/pig.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/bobby.png"
+    },
+    "pig_crown": {
+      "name": "Technoblade",
+      "model": "/assets/companions/geo/pig.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/pig_crown.png"
+    },
+    "reddragon": {
+      "name": "Red Dragon",
+      "model": "/assets/companions/geo/reddragon.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/reddragon.png"
+    },
+    "lunar_dragon": {
+      "name": "Lunar Dragon",
+      "model": "/assets/companions/geo/companion/lunar_dragon.geo.json",
+      "texture": "/assets/companions/textures/entity/companion/lunar_dragon.png"
+    }
+  },
+  "resourceCount": 106
+}
