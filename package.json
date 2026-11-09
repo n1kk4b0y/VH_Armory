@@ -1,0 +1,28 @@
+{
+  "name": "vh-armory-local",
+  "version": "1.22.0",
+  "private": true,
+  "description": "Vault Hunters Armory with local and read-only SFTP sources configured in config.json",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/v18.test.js test/xp.test.js test/home.test.js test/assets.test.js test/gear.test.js test/trinkets.test.js test/p1.test.js test/p2.test.js test/v21.test.js test/companion-head.test.js test/companion-details.test.js test/decks.test.js test/companion-legend.test.js test/native-gear.test.js test/sftp.test.js",
+    "build:viewer": "node scripts/build-viewer.cjs",
+    "open": "node scripts/start.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "prismarine-nbt": "^2.8.0",
+    "ssh2": "1.17.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "skinview3d": "3.4.2",
+    "three": "0.156.1"
+  }
+}
